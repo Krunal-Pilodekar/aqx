@@ -1,0 +1,1602 @@
+[
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 7,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05,
+    "probabilities": {
+      "numba": 0.7825,
+      "numba_parallel": 0.205,
+      "numpy": 0.0125
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 7,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05,
+    "probabilities": {
+      "numba": 0.94,
+      "numba_parallel": 0.035,
+      "numpy": 0.025
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 7,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05,
+    "probabilities": {
+      "numba": 0.98,
+      "numba_parallel": 0.0025,
+      "numpy": 0.0175
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 7,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numpy",
+    "correct": false,
+    "regret": 4.520345534404049,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 0.00023198700000648387,
+    "probabilities": {
+      "numba": 0.24,
+      "numba_parallel": 0.0075,
+      "numpy": 0.7525
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 17,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05,
+    "probabilities": {
+      "numba": 0.82,
+      "numba_parallel": 0.1525,
+      "numpy": 0.0275
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 17,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05,
+    "probabilities": {
+      "numba": 0.9575,
+      "numba_parallel": 0.03,
+      "numpy": 0.0125
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 17,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05,
+    "probabilities": {
+      "numba": 0.975,
+      "numba_parallel": 0.01,
+      "numpy": 0.015
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 17,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numpy",
+    "correct": false,
+    "regret": 4.520345534404049,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 0.00023198700000648387,
+    "probabilities": {
+      "numba": 0.2725,
+      "numba_parallel": 0.0075,
+      "numpy": 0.72
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 29,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05,
+    "probabilities": {
+      "numba": 0.81,
+      "numba_parallel": 0.1675,
+      "numpy": 0.0225
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 29,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05,
+    "probabilities": {
+      "numba": 0.935,
+      "numba_parallel": 0.0375,
+      "numpy": 0.0275
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 29,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05,
+    "probabilities": {
+      "numba": 0.9775,
+      "numba_parallel": 0.005,
+      "numpy": 0.0175
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 29,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numpy",
+    "correct": false,
+    "regret": 4.520345534404049,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 0.00023198700000648387,
+    "probabilities": {
+      "numba": 0.2675,
+      "numba_parallel": 0.0075,
+      "numpy": 0.725
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 41,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05,
+    "probabilities": {
+      "numba": 0.77,
+      "numba_parallel": 0.2075,
+      "numpy": 0.0225
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 41,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05,
+    "probabilities": {
+      "numba": 0.945,
+      "numba_parallel": 0.0325,
+      "numpy": 0.0225
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 41,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05,
+    "probabilities": {
+      "numba": 0.9825,
+      "numba_parallel": 0.005,
+      "numpy": 0.0125
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 41,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numpy",
+    "correct": false,
+    "regret": 4.520345534404049,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 0.00023198700000648387,
+    "probabilities": {
+      "numba": 0.2225,
+      "numba_parallel": 0.01,
+      "numpy": 0.7675
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 73,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05,
+    "probabilities": {
+      "numba": 0.765,
+      "numba_parallel": 0.22,
+      "numpy": 0.015
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 73,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05,
+    "probabilities": {
+      "numba": 0.9425,
+      "numba_parallel": 0.035,
+      "numpy": 0.0225
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 73,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05,
+    "probabilities": {
+      "numba": 0.9825,
+      "numba_parallel": 0.0025,
+      "numpy": 0.015
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 0,
+    "seed": 73,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numpy",
+    "correct": false,
+    "regret": 4.520345534404049,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 0.00023198700000648387,
+    "probabilities": {
+      "numba": 0.2325,
+      "numba_parallel": 0.01,
+      "numpy": 0.7575
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 7,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057,
+    "probabilities": {
+      "numba": 0.8225,
+      "numba_parallel": 0.1775,
+      "numpy": 0.0
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 7,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558,
+    "probabilities": {
+      "numba": 0.9075,
+      "numba_parallel": 0.0825,
+      "numpy": 0.01
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 7,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05,
+    "probabilities": {
+      "numba": 0.9875,
+      "numba_parallel": 0.005,
+      "numpy": 0.0075
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 7,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.0002359529999012011,
+    "probabilities": {
+      "numba": 0.38,
+      "numba_parallel": 0.11,
+      "numpy": 0.51
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 17,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057,
+    "probabilities": {
+      "numba": 0.8575,
+      "numba_parallel": 0.14,
+      "numpy": 0.0025
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 17,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558,
+    "probabilities": {
+      "numba": 0.8925,
+      "numba_parallel": 0.09,
+      "numpy": 0.0175
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 17,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05,
+    "probabilities": {
+      "numba": 0.99,
+      "numba_parallel": 0.0075,
+      "numpy": 0.0025
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 17,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.10474119900837464,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.0002606670000204758,
+    "probabilities": {
+      "numba": 0.5,
+      "numba_parallel": 0.0975,
+      "numpy": 0.4025
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 29,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057,
+    "probabilities": {
+      "numba": 0.865,
+      "numba_parallel": 0.1325,
+      "numpy": 0.0025
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 29,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558,
+    "probabilities": {
+      "numba": 0.885,
+      "numba_parallel": 0.1075,
+      "numpy": 0.0075
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 29,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05,
+    "probabilities": {
+      "numba": 0.9925,
+      "numba_parallel": 0.005,
+      "numpy": 0.0025
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 29,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.10474119900837464,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.0002606670000204758,
+    "probabilities": {
+      "numba": 0.45,
+      "numba_parallel": 0.105,
+      "numpy": 0.445
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 41,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057,
+    "probabilities": {
+      "numba": 0.825,
+      "numba_parallel": 0.17,
+      "numpy": 0.005
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 41,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558,
+    "probabilities": {
+      "numba": 0.9025,
+      "numba_parallel": 0.09,
+      "numpy": 0.0075
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 41,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05,
+    "probabilities": {
+      "numba": 0.9875,
+      "numba_parallel": 0.0075,
+      "numpy": 0.005
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 41,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.0002359529999012011,
+    "probabilities": {
+      "numba": 0.41,
+      "numba_parallel": 0.11,
+      "numpy": 0.48
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 73,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057,
+    "probabilities": {
+      "numba": 0.8275,
+      "numba_parallel": 0.1725,
+      "numpy": 0.0
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 73,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558,
+    "probabilities": {
+      "numba": 0.9,
+      "numba_parallel": 0.0925,
+      "numpy": 0.0075
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 73,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05,
+    "probabilities": {
+      "numba": 0.98,
+      "numba_parallel": 0.015,
+      "numpy": 0.005
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 1,
+    "seed": 73,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.0002359529999012011,
+    "probabilities": {
+      "numba": 0.4475,
+      "numba_parallel": 0.085,
+      "numpy": 0.4675
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 7,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.03953286723462246,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.00031039100008456444,
+    "probabilities": {
+      "numba": 0.43,
+      "numba_parallel": 0.3925,
+      "numpy": 0.1775
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 7,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba_parallel",
+    "correct": false,
+    "regret": 0.8140594589700545,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.000744851000035851,
+    "probabilities": {
+      "numba": 0.23,
+      "numba_parallel": 0.63,
+      "numpy": 0.14
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 7,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05,
+    "probabilities": {
+      "numba": 0.875,
+      "numba_parallel": 0.0475,
+      "numpy": 0.0775
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 7,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487,
+    "probabilities": {
+      "numba": 0.1325,
+      "numba_parallel": 0.1725,
+      "numpy": 0.695
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 17,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.0002985869998610724,
+    "probabilities": {
+      "numba": 0.3625,
+      "numba_parallel": 0.445,
+      "numpy": 0.1925
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 17,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba_parallel",
+    "correct": false,
+    "regret": 0.8140594589700545,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.000744851000035851,
+    "probabilities": {
+      "numba": 0.2025,
+      "numba_parallel": 0.65,
+      "numpy": 0.1475
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 17,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05,
+    "probabilities": {
+      "numba": 0.8375,
+      "numba_parallel": 0.085,
+      "numpy": 0.0775
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 17,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487,
+    "probabilities": {
+      "numba": 0.11,
+      "numba_parallel": 0.1625,
+      "numpy": 0.7275
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 29,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.0002985869998610724,
+    "probabilities": {
+      "numba": 0.405,
+      "numba_parallel": 0.4175,
+      "numpy": 0.1775
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 29,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba_parallel",
+    "correct": false,
+    "regret": 0.8140594589700545,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.000744851000035851,
+    "probabilities": {
+      "numba": 0.2425,
+      "numba_parallel": 0.6325,
+      "numpy": 0.125
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 29,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05,
+    "probabilities": {
+      "numba": 0.875,
+      "numba_parallel": 0.0675,
+      "numpy": 0.0575
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 29,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487,
+    "probabilities": {
+      "numba": 0.11,
+      "numba_parallel": 0.17,
+      "numpy": 0.72
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 41,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.0002985869998610724,
+    "probabilities": {
+      "numba": 0.41,
+      "numba_parallel": 0.4725,
+      "numpy": 0.1175
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 41,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba_parallel",
+    "correct": false,
+    "regret": 0.8140594589700545,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.000744851000035851,
+    "probabilities": {
+      "numba": 0.275,
+      "numba_parallel": 0.615,
+      "numpy": 0.11
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 41,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05,
+    "probabilities": {
+      "numba": 0.8975,
+      "numba_parallel": 0.065,
+      "numpy": 0.0375
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 41,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487,
+    "probabilities": {
+      "numba": 0.115,
+      "numba_parallel": 0.16,
+      "numpy": 0.725
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 73,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.0002985869998610724,
+    "probabilities": {
+      "numba": 0.41,
+      "numba_parallel": 0.445,
+      "numpy": 0.145
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 73,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba_parallel",
+    "correct": false,
+    "regret": 0.8140594589700545,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.000744851000035851,
+    "probabilities": {
+      "numba": 0.215,
+      "numba_parallel": 0.68,
+      "numpy": 0.105
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 73,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05,
+    "probabilities": {
+      "numba": 0.835,
+      "numba_parallel": 0.1025,
+      "numpy": 0.0625
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 2,
+    "seed": 73,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487,
+    "probabilities": {
+      "numba": 0.125,
+      "numba_parallel": 0.165,
+      "numpy": 0.71
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 7,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.00034757399998852634,
+    "probabilities": {
+      "numba": 0.275,
+      "numba_parallel": 0.525,
+      "numpy": 0.2
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 7,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416,
+    "probabilities": {
+      "numba": 0.705,
+      "numba_parallel": 0.105,
+      "numpy": 0.19
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 7,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05,
+    "probabilities": {
+      "numba": 0.7725,
+      "numba_parallel": 0.1125,
+      "numpy": 0.115
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 7,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.000440575000084209,
+    "probabilities": {
+      "numba": 0.09,
+      "numba_parallel": 0.09,
+      "numpy": 0.82
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 17,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.00034757399998852634,
+    "probabilities": {
+      "numba": 0.2375,
+      "numba_parallel": 0.5125,
+      "numpy": 0.25
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 17,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416,
+    "probabilities": {
+      "numba": 0.69,
+      "numba_parallel": 0.095,
+      "numpy": 0.215
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 17,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05,
+    "probabilities": {
+      "numba": 0.765,
+      "numba_parallel": 0.1075,
+      "numpy": 0.1275
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 17,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.000440575000084209,
+    "probabilities": {
+      "numba": 0.115,
+      "numba_parallel": 0.0675,
+      "numpy": 0.8175
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 29,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.00034757399998852634,
+    "probabilities": {
+      "numba": 0.3125,
+      "numba_parallel": 0.4925,
+      "numpy": 0.195
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 29,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416,
+    "probabilities": {
+      "numba": 0.74,
+      "numba_parallel": 0.11,
+      "numpy": 0.15
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 29,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05,
+    "probabilities": {
+      "numba": 0.8125,
+      "numba_parallel": 0.0975,
+      "numpy": 0.09
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 29,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.000440575000084209,
+    "probabilities": {
+      "numba": 0.1175,
+      "numba_parallel": 0.0925,
+      "numpy": 0.79
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 41,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.00034757399998852634,
+    "probabilities": {
+      "numba": 0.3025,
+      "numba_parallel": 0.535,
+      "numpy": 0.1625
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 41,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416,
+    "probabilities": {
+      "numba": 0.745,
+      "numba_parallel": 0.11,
+      "numpy": 0.145
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 41,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05,
+    "probabilities": {
+      "numba": 0.8375,
+      "numba_parallel": 0.0875,
+      "numpy": 0.075
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 41,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.000440575000084209,
+    "probabilities": {
+      "numba": 0.1075,
+      "numba_parallel": 0.07,
+      "numpy": 0.8225
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 73,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.00034757399998852634,
+    "probabilities": {
+      "numba": 0.3175,
+      "numba_parallel": 0.5175,
+      "numpy": 0.165
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 73,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416,
+    "probabilities": {
+      "numba": 0.725,
+      "numba_parallel": 0.12,
+      "numpy": 0.155
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 73,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05,
+    "probabilities": {
+      "numba": 0.785,
+      "numba_parallel": 0.1025,
+      "numpy": 0.1125
+    }
+  },
+  {
+    "protocol": "leave_one_size_rank_out",
+    "heldout_rank": 3,
+    "seed": 73,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.000440575000084209,
+    "probabilities": {
+      "numba": 0.1175,
+      "numba_parallel": 0.07,
+      "numpy": 0.8125
+    }
+  }
+]

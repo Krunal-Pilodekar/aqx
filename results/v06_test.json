@@ -1,0 +1,86 @@
+[
+  {
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "selected": "numba",
+    "raw_model_correct": false,
+    "correct": false,
+    "regret": 0.6721906704274017,
+    "fallback_regret": 0.6721906704274017,
+    "margin": 0.256,
+    "entropy": 0.6600115406504978,
+    "abstained": false,
+    "reason": "confident",
+    "probabilities": {
+      "numba": 0.628,
+      "numpy": 0.372
+    },
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.0005812100000639475
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "selected": "numba",
+    "raw_model_correct": false,
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "fallback_regret": 0.3684019318076217,
+    "margin": 0.412,
+    "entropy": 0.6056944697143358,
+    "abstained": false,
+    "reason": "confident",
+    "probabilities": {
+      "numba": 0.706,
+      "numpy": 0.294
+    },
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "selected": "numba",
+    "raw_model_correct": true,
+    "correct": true,
+    "regret": 0.0,
+    "fallback_regret": 0.0,
+    "margin": 0.5720000000000001,
+    "entropy": 0.5192083729181044,
+    "abstained": false,
+    "reason": "confident",
+    "probabilities": {
+      "numba": 0.786,
+      "numpy": 0.214
+    },
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "selected": "numpy",
+    "raw_model_correct": true,
+    "correct": true,
+    "regret": 0.0,
+    "fallback_regret": 3.0976246942136942,
+    "margin": 0.256,
+    "entropy": 0.6600115406504978,
+    "abstained": false,
+    "reason": "confident",
+    "probabilities": {
+      "numba": 0.372,
+      "numpy": 0.628
+    },
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.000440575000084209
+  }
+]

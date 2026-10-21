@@ -1,0 +1,11 @@
+{
+  "workload": "monte_carlo_option",
+  "backends": ["python", "numpy", "numba", "numba_parallel"],
+  "repeats": 5,
+  "seed": 7,
+  "numba_threads_cap": 8,
+  "timing": "perf_counter",
+  "warmup": 0,
+  "numeric_tolerance_abs": 1e-8,
+  "train_test_split": "CONFIGS[::2] + CONFIGS[1::4] for training; remaining configs held out"
+}

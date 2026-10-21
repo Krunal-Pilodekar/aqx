@@ -1,0 +1,114 @@
+[
+  {
+    "heldout_rank": 0,
+    "workload": "black_scholes",
+    "size": 512,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 0,
+    "workload": "monte_carlo",
+    "size": 512,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 0,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 0,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 1,
+    "workload": "black_scholes",
+    "size": 2048,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 1,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 1,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 1,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "backend": "numba",
+    "regret": 0.10474119900837464
+  },
+  {
+    "heldout_rank": 2,
+    "workload": "black_scholes",
+    "size": 8192,
+    "backend": "numba",
+    "regret": 0.03953286723462246
+  },
+  {
+    "heldout_rank": 2,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 2,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 2,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "backend": "numba",
+    "regret": 2.008138606455333
+  },
+  {
+    "heldout_rank": 3,
+    "workload": "black_scholes",
+    "size": 16384,
+    "backend": "numba",
+    "regret": 0.6721906704274017
+  },
+  {
+    "heldout_rank": 3,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "backend": "numba",
+    "regret": 0.3684019318076217
+  },
+  {
+    "heldout_rank": 3,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "backend": "numba",
+    "regret": 0.0
+  },
+  {
+    "heldout_rank": 3,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "backend": "numba",
+    "regret": 3.0976246942136942
+  }
+]

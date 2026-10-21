@@ -1,0 +1,111 @@
+{
+  "version": "0.9",
+  "dataset": "20 freshly measured cases; 4 workloads x 5 sizes; 3 steady-state repeats after warmup; fixed RNG seed 73",
+  "primary": {
+    "LR+family": {
+      "n": 60,
+      "accuracy": 0.95,
+      "mean_regret": 0.03519853889782338,
+      "median_regret": 0.0,
+      "p95_regret": 0.035198538897821374,
+      "max_regret": 0.7039707779564675,
+      "accuracy_ci95": [
+        0.8833333333333333,
+        1.0
+      ],
+      "mean_regret_ci95": [
+        0.0,
+        0.0821299240949212
+      ],
+      "mean_numba_regret": 0.49403680454336213,
+      "win_vs_numba": 0.3
+    },
+    "LR+numeric": {
+      "n": 60,
+      "accuracy": 0.95,
+      "mean_regret": 0.03519853889782338,
+      "median_regret": 0.0,
+      "p95_regret": 0.035198538897821374,
+      "max_regret": 0.7039707779564675,
+      "accuracy_ci95": [
+        0.8833333333333333,
+        1.0
+      ],
+      "mean_regret_ci95": [
+        0.0,
+        0.0821299240949212
+      ],
+      "mean_numba_regret": 0.49403680454336213,
+      "win_vs_numba": 0.3
+    },
+    "LR+size": {
+      "n": 60,
+      "accuracy": 0.7,
+      "mean_regret": 1.5463062784097164,
+      "median_regret": 0.0,
+      "p95_regret": 4.196631478649742,
+      "max_regret": 25.865905514668103,
+      "accuracy_ci95": [
+        0.5833333333333334,
+        0.8166666666666667
+      ],
+      "mean_regret_ci95": [
+        0.264246375589892,
+        3.174513212443461
+      ],
+      "mean_numba_regret": 0.49403680454336213,
+      "win_vs_numba": 0.15
+    }
+  },
+  "baselines": {
+    "family_fixed": {
+      "mean_regret": 1.0294943568325472,
+      "median_regret": 0.0,
+      "p95_regret": 3.311268612718715
+    },
+    "global_fixed": {
+      "mean_regret": 0.49403680454336224,
+      "median_regret": 0.0,
+      "p95_regret": 2.821248698974025
+    }
+  },
+  "cross_family": {
+    "n": 60,
+    "accuracy": 0.8,
+    "mean_regret": 0.12477319851771576,
+    "median_regret": 0.0,
+    "p95_regret": 0.7106212207160061,
+    "max_regret": 0.8369796331472479,
+    "accuracy_ci95": [
+      0.6833333333333333,
+      0.9
+    ],
+    "mean_regret_ci95": [
+      0.059837439642335004,
+      0.19604477697270387
+    ],
+    "mean_numba_regret": 0.4940368045433621,
+    "win_vs_numba": 0.25
+  },
+  "ablation_C": [
+    {
+      "C": 0.1,
+      "accuracy": 0.85,
+      "mean_regret": 0.08441937723808979,
+      "p95_regret": 0.642081739776087
+    },
+    {
+      "C": 1.0,
+      "accuracy": 0.95,
+      "mean_regret": 0.03519853889782337,
+      "p95_regret": 0.03519853889782387
+    },
+    {
+      "C": 10.0,
+      "accuracy": 0.9,
+      "mean_regret": 0.04728629390263702,
+      "p95_regret": 0.264865883989283
+    }
+  ],
+  "literature_note": "The literature on ML-based compiler autotuning is mature, so AQX is evaluated as a domain-specific backend-selection problem rather than claiming generic autotuning novelty."
+}

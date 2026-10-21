@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aqx"
+version = "1.0.0"
+description = "Risk-aware adaptive backend selection for quantitative Python workloads"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "numba>=0.65"]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = ["Development Status :: 4 - Beta", "Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Information Analysis", "Topic :: Software Development :: Testing"]
+
+[project.optional-dependencies]
+research = ["pandas>=2.2", "matplotlib>=3.9", "scikit-learn>=1.5"]
+dev = ["pytest>=8.0", "build>=1.2", "twine>=6.0"]
+
+[project.scripts]
+aqx-demo = "aqx.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aqx", "aqx.*"]
+exclude = ["aqx.tests*"]

@@ -1,0 +1,3522 @@
+[
+  {
+    "rank": 0,
+    "seed": 7,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00012140214596493121,
+        "uncertainty_s": 8.409311772767724e-05,
+        "risk_score": 0.00016344870482876982,
+        "q90_time_s": 0.00020549526369260845
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004090230935778747,
+        "uncertainty_s": 0.0003501460202982065,
+        "risk_score": 0.000584096103726978,
+        "q90_time_s": 0.0007591691138760812
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.001684431280794106,
+        "uncertainty_s": 0.001736993519752875,
+        "risk_score": 0.0025529280406705436,
+        "q90_time_s": 0.003421424800546981
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0034862420801691006,
+        "uncertainty_s": 0.0035081279019143342,
+        "risk_score": 0.0052403060311262675,
+        "q90_time_s": 0.006994369982083435
+      }
+    ],
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05
+  },
+  {
+    "rank": 0,
+    "seed": 7,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0001262014107519495,
+        "uncertainty_s": 8.869544723729425e-05,
+        "risk_score": 0.00017054913437059664,
+        "q90_time_s": 0.00021489685798924376
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004086740400639169,
+        "uncertainty_s": 0.0004042383679856458,
+        "risk_score": 0.0006107932240567398,
+        "q90_time_s": 0.0008129124080495627
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0006411706055519043,
+        "uncertainty_s": 0.0006267213710167215,
+        "risk_score": 0.0009545312910602651,
+        "q90_time_s": 0.0012678919765686258
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.004629464292275435,
+        "uncertainty_s": 0.005280165515293149,
+        "risk_score": 0.0072695470499220104,
+        "q90_time_s": 0.009909629807568585
+      }
+    ],
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05
+  },
+  {
+    "rank": 0,
+    "seed": 7,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 7.563563358588592e-05,
+        "uncertainty_s": 4.532831295783881e-05,
+        "risk_score": 9.829979006480533e-05,
+        "q90_time_s": 0.00012096394654372473
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00024769097054674823,
+        "uncertainty_s": 0.0001298747497798551,
+        "risk_score": 0.0003126283454366758,
+        "q90_time_s": 0.00037756572032660333
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.000994942193369451,
+        "uncertainty_s": 0.0012639027036264274,
+        "risk_score": 0.0016268935451826648,
+        "q90_time_s": 0.0022588448969958785
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0032421636878202428,
+        "uncertainty_s": 0.003088645388382533,
+        "risk_score": 0.004786486382011509,
+        "q90_time_s": 0.006330809076202776
+      }
+    ],
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05
+  },
+  {
+    "rank": 0,
+    "seed": 7,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00012644214396113966,
+        "uncertainty_s": 8.88056513926949e-05,
+        "risk_score": 0.0001708449696574871,
+        "q90_time_s": 0.00021524779535383456
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0003204772200944826,
+        "uncertainty_s": 0.00021284881742071512,
+        "risk_score": 0.00042690162880484016,
+        "q90_time_s": 0.0005333260375151977
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00037261808665838177,
+        "uncertainty_s": 0.0002861328660616275,
+        "risk_score": 0.0005156845196891955,
+        "q90_time_s": 0.0006587509527200093
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.03348673266290373,
+        "uncertainty_s": 0.035044945103685214,
+        "risk_score": 0.051009205214746334,
+        "q90_time_s": 0.06853167776658894
+      }
+    ],
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 4.202399986752425e-05
+  },
+  {
+    "rank": 1,
+    "seed": 7,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 6.094486393516435e-05,
+        "uncertainty_s": 3.414923866029483e-05,
+        "risk_score": 7.801948326531177e-05,
+        "q90_time_s": 9.509410259545918e-05
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0001980160373018193,
+        "uncertainty_s": 4.9918051810982105e-05,
+        "risk_score": 0.00022297506320731036,
+        "q90_time_s": 0.0002479340891128014
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0006191689482798776,
+        "uncertainty_s": 0.0006611163051744692,
+        "risk_score": 0.0009497271008671122,
+        "q90_time_s": 0.0012802852534543468
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.002111791940583419,
+        "uncertainty_s": 0.0022499182187644706,
+        "risk_score": 0.0032367510499656544,
+        "q90_time_s": 0.0043617101593478895
+      }
+    ],
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057
+  },
+  {
+    "rank": 1,
+    "seed": 7,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00011720293144421522,
+        "uncertainty_s": 0.00012798618101714227,
+        "risk_score": 0.00018119602195278635,
+        "q90_time_s": 0.0002451891124613575
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0004688144877179917,
+        "uncertainty_s": 0.00047173983220140224,
+        "risk_score": 0.0007046844038186928,
+        "q90_time_s": 0.000940554319919394
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004934365714325234,
+        "uncertainty_s": 0.0005207708095347453,
+        "risk_score": 0.000753821976199896,
+        "q90_time_s": 0.0010142073809672686
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.007641643505915305,
+        "uncertainty_s": 0.00971411187123112,
+        "risk_score": 0.012498699441530866,
+        "q90_time_s": 0.017355755377146426
+      }
+    ],
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558
+  },
+  {
+    "rank": 1,
+    "seed": 7,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 6.208808098345665e-05,
+        "uncertainty_s": 3.5368667032870606e-05,
+        "risk_score": 7.977241449989196e-05,
+        "q90_time_s": 9.745674801632726e-05
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00021896776236121892,
+        "uncertainty_s": 6.684728542991907e-05,
+        "risk_score": 0.00025239140507617847,
+        "q90_time_s": 0.000285815047791138
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0018118941281102163,
+        "uncertainty_s": 0.002171793100132064,
+        "risk_score": 0.0028977906781762486,
+        "q90_time_s": 0.003983687228242281
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0021635685111106085,
+        "uncertainty_s": 0.0023458405619446883,
+        "risk_score": 0.0033364887920829525,
+        "q90_time_s": 0.004509409073055297
+      }
+    ],
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05
+  },
+  {
+    "rank": 1,
+    "seed": 7,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0004946633373212207,
+        "uncertainty_s": 0.00043942048387672736,
+        "risk_score": 0.0007143735792595843,
+        "q90_time_s": 0.000934083821197948
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0006073208873173983,
+        "uncertainty_s": 0.0007061911401788669,
+        "risk_score": 0.0009604164574068318,
+        "q90_time_s": 0.0013135120274962652
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0007559383679853975,
+        "uncertainty_s": 0.0009614002259135157,
+        "risk_score": 0.0012366384809421554,
+        "q90_time_s": 0.0017173385938989132
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.019014620348272684,
+        "uncertainty_s": 0.02211357271317301,
+        "risk_score": 0.03007140670485919,
+        "q90_time_s": 0.041128193061445696
+      }
+    ],
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.0002359529999012011
+  },
+  {
+    "rank": 2,
+    "seed": 7,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "predictions": [
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004586074828130878,
+        "uncertainty_s": 0.0003912334978516366,
+        "risk_score": 0.0006542242317389061,
+        "q90_time_s": 0.0008498409806647244
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00043595011202433024,
+        "uncertainty_s": 0.0004885272037271687,
+        "risk_score": 0.0006802137138879145,
+        "q90_time_s": 0.000924477315751499
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0008076208408513861,
+        "uncertainty_s": 0.0007449976591080503,
+        "risk_score": 0.0011801196704054112,
+        "q90_time_s": 0.0015526184999594364
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.03235654724136281,
+        "uncertainty_s": 0.04076168553435506,
+        "risk_score": 0.052737390008540344,
+        "q90_time_s": 0.07311823277571787
+      }
+    ],
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.0002985869998610724
+  },
+  {
+    "rank": 2,
+    "seed": 7,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0007356206583772907,
+        "uncertainty_s": 0.0007701820419683086,
+        "risk_score": 0.001120711679361445,
+        "q90_time_s": 0.0015058027003455993
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0008578886181151105,
+        "uncertainty_s": 0.0008449600323814708,
+        "risk_score": 0.001280368634305846,
+        "q90_time_s": 0.0017028486504965814
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0011960393209483587,
+        "uncertainty_s": 0.001319669495386884,
+        "risk_score": 0.0018558740686418006,
+        "q90_time_s": 0.0025157088163352426
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.06381672630809872,
+        "uncertainty_s": 0.08006262805446444,
+        "risk_score": 0.10384804033533093,
+        "q90_time_s": 0.14387935436256316
+      }
+    ],
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.0004105990001335158
+  },
+  {
+    "rank": 2,
+    "seed": 7,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0001661733341476641,
+        "uncertainty_s": 0.00018518891845229916,
+        "risk_score": 0.0002587677933738137,
+        "q90_time_s": 0.0003513622525999633
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0002829625350221691,
+        "uncertainty_s": 0.00016098945161471866,
+        "risk_score": 0.0003634572608295284,
+        "q90_time_s": 0.00044395198663688774
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00031900123366895643,
+        "uncertainty_s": 0.0002483148945904945,
+        "risk_score": 0.0004431586809642037,
+        "q90_time_s": 0.0005673161282594509
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.013480500288539027,
+        "uncertainty_s": 0.016412626067139578,
+        "risk_score": 0.021686813322108818,
+        "q90_time_s": 0.029893126355678607
+      }
+    ],
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05
+  },
+  {
+    "rank": 2,
+    "seed": 7,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.000548942450276942,
+        "uncertainty_s": 0.0004849989716717059,
+        "risk_score": 0.000791441936112795,
+        "q90_time_s": 0.001033941421948648
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0006368254538627923,
+        "uncertainty_s": 0.0006505037876190368,
+        "risk_score": 0.0009620773476723107,
+        "q90_time_s": 0.0012873292414818291
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0006609350047486674,
+        "uncertainty_s": 0.0006359063000986061,
+        "risk_score": 0.0009788881547979705,
+        "q90_time_s": 0.0012968413048472735
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0466234386838489,
+        "uncertainty_s": 0.05657493506037209,
+        "risk_score": 0.07491090621403494,
+        "q90_time_s": 0.10319837374422099
+      }
+    ],
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487
+  },
+  {
+    "rank": 3,
+    "seed": 7,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.6721906704274017,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00046594978484744713,
+        "uncertainty_s": 0.0003494144245412105,
+        "risk_score": 0.0006406569971180524,
+        "q90_time_s": 0.0008153642093886576
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0008668184383068316,
+        "uncertainty_s": 0.000611621819231576,
+        "risk_score": 0.0011726293479226197,
+        "q90_time_s": 0.0014784402575384076
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0010493327446106033,
+        "uncertainty_s": 0.0008261598840319691,
+        "risk_score": 0.0014624126866265878,
+        "q90_time_s": 0.0018754926286425723
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.027955680164815103,
+        "uncertainty_s": 0.03367233997572306,
+        "risk_score": 0.04479185015267663,
+        "q90_time_s": 0.06162802014053816
+      }
+    ],
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.0005812100000639475
+  },
+  {
+    "rank": 3,
+    "seed": 7,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00046594978484744713,
+        "uncertainty_s": 0.0003494144245412105,
+        "risk_score": 0.0006406569971180524,
+        "q90_time_s": 0.0008153642093886576
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005832868824743322,
+        "uncertainty_s": 0.00043282500081842125,
+        "risk_score": 0.0007996993828835429,
+        "q90_time_s": 0.0010161118832927535
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0010845442585233171,
+        "uncertainty_s": 0.0008124104470751043,
+        "risk_score": 0.0014907494820608693,
+        "q90_time_s": 0.0018969547055984214
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.026061676741355094,
+        "uncertainty_s": 0.029656502424581094,
+        "risk_score": 0.04088992795364564,
+        "q90_time_s": 0.05571817916593619
+      }
+    ],
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416
+  },
+  {
+    "rank": 3,
+    "seed": 7,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00019789393473169811,
+        "uncertainty_s": 0.00023993202499810438,
+        "risk_score": 0.0003178599472307503,
+        "q90_time_s": 0.0004378259597298025
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0003507649115392213,
+        "uncertainty_s": 0.00028676191533480065,
+        "risk_score": 0.0004941458692066217,
+        "q90_time_s": 0.000637526826874022
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0011564591467091406,
+        "uncertainty_s": 0.001093275663348418,
+        "risk_score": 0.0017030969783833495,
+        "q90_time_s": 0.0022497348100575586
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.014402317926878476,
+        "uncertainty_s": 0.018307715877067338,
+        "risk_score": 0.023556175865412143,
+        "q90_time_s": 0.03271003380394581
+      }
+    ],
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05
+  },
+  {
+    "rank": 3,
+    "seed": 7,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 3.0976246942136942,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00048409901654299976,
+        "uncertainty_s": 0.0002457188608669375,
+        "risk_score": 0.0006069584469764685,
+        "q90_time_s": 0.0007298178774099372
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00047911626166712105,
+        "uncertainty_s": 0.00037229837403347993,
+        "risk_score": 0.0006652654486838611,
+        "q90_time_s": 0.000851414635700601
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0011071320217766834,
+        "uncertainty_s": 0.0008506837337369604,
+        "risk_score": 0.0015324738886451634,
+        "q90_time_s": 0.0019578157555136437
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.04578222676068095,
+        "uncertainty_s": 0.0499751663110846,
+        "risk_score": 0.07076980991622325,
+        "q90_time_s": 0.09575739307176555
+      }
+    ],
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.0018053109999982553
+  },
+  {
+    "rank": 0,
+    "seed": 17,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0001160783847450012,
+        "uncertainty_s": 8.334031578597116e-05,
+        "risk_score": 0.00015774854263798677,
+        "q90_time_s": 0.00019941870053097235
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0006244041349475045,
+        "uncertainty_s": 0.0007295682313824683,
+        "risk_score": 0.0009891882506387387,
+        "q90_time_s": 0.0013539723663299728
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0020651716030083036,
+        "uncertainty_s": 0.002199062456156515,
+        "risk_score": 0.003164702831086561,
+        "q90_time_s": 0.0042642340591648184
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.002675478823152377,
+        "uncertainty_s": 0.002030192593973226,
+        "risk_score": 0.0036905751201389897,
+        "q90_time_s": 0.004705671417125603
+      }
+    ],
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05
+  },
+  {
+    "rank": 0,
+    "seed": 17,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0001160783847450012,
+        "uncertainty_s": 8.334031578597116e-05,
+        "risk_score": 0.00015774854263798677,
+        "q90_time_s": 0.00019941870053097235
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005236602332186264,
+        "uncertainty_s": 0.0005212023203632765,
+        "risk_score": 0.0007842613934002647,
+        "q90_time_s": 0.001044862553581903
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0005607956305974547,
+        "uncertainty_s": 0.0006745070404890184,
+        "risk_score": 0.0008980491508419639,
+        "q90_time_s": 0.001235302671086473
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.00506506287277728,
+        "uncertainty_s": 0.0057759851761678,
+        "risk_score": 0.00795305546086118,
+        "q90_time_s": 0.01084104804894508
+      }
+    ],
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05
+  },
+  {
+    "rank": 0,
+    "seed": 17,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 6.712757857128438e-05,
+        "uncertainty_s": 3.924838740793043e-05,
+        "risk_score": 8.675177227524959e-05,
+        "q90_time_s": 0.00010637596597921481
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00021267304212702813,
+        "uncertainty_s": 4.7246572826023026e-05,
+        "risk_score": 0.00023629632854003964,
+        "q90_time_s": 0.00025991961495305116
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0010886611605905804,
+        "uncertainty_s": 0.0013850105001051744,
+        "risk_score": 0.0017811664106431677,
+        "q90_time_s": 0.002473671660695755
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0037418256757302724,
+        "uncertainty_s": 0.004126919451927705,
+        "risk_score": 0.0058052854016941245,
+        "q90_time_s": 0.007868745127657978
+      }
+    ],
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05
+  },
+  {
+    "rank": 0,
+    "seed": 17,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00013122909734949358,
+        "uncertainty_s": 0.00011294144089159033,
+        "risk_score": 0.00018769981779528873,
+        "q90_time_s": 0.0002441705382410839
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0003019383053087407,
+        "uncertainty_s": 0.00018841375185872568,
+        "risk_score": 0.00039614518123810355,
+        "q90_time_s": 0.0004903520571674664
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00035735652349255836,
+        "uncertainty_s": 0.00031294435833465584,
+        "risk_score": 0.0005138287026598862,
+        "q90_time_s": 0.0006703008818272142
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.057653931111219844,
+        "uncertainty_s": 0.051335898631302945,
+        "risk_score": 0.08332188042687132,
+        "q90_time_s": 0.10898982974252279
+      }
+    ],
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 4.202399986752425e-05
+  },
+  {
+    "rank": 1,
+    "seed": 17,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 5.936839277445122e-05,
+        "uncertainty_s": 3.6622205646142696e-05,
+        "risk_score": 7.767949559752256e-05,
+        "q90_time_s": 9.599059842059392e-05
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00022057259860348602,
+        "uncertainty_s": 0.00011438401689407507,
+        "risk_score": 0.00027776460705052357,
+        "q90_time_s": 0.0003349566154975611
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0011315333651110335,
+        "uncertainty_s": 0.0013588807015257457,
+        "risk_score": 0.0018109737158739064,
+        "q90_time_s": 0.0024904140666367793
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0024321534364067977,
+        "uncertainty_s": 0.0022067761620692098,
+        "risk_score": 0.0035355415174414028,
+        "q90_time_s": 0.0046389295984760074
+      }
+    ],
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057
+  },
+  {
+    "rank": 1,
+    "seed": 17,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 6.948258558492823e-05,
+        "uncertainty_s": 4.697063726801297e-05,
+        "risk_score": 9.29679042189347e-05,
+        "q90_time_s": 0.0001164532228529412
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0003419778038799367,
+        "uncertainty_s": 0.0002574136079707464,
+        "risk_score": 0.0004706846078653099,
+        "q90_time_s": 0.0005993914118506831
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004691822255077341,
+        "uncertainty_s": 0.0005033751040282445,
+        "risk_score": 0.0007208697775218563,
+        "q90_time_s": 0.0009725573295359786
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.009048456321911817,
+        "uncertainty_s": 0.011446240312496223,
+        "risk_score": 0.014771576478159928,
+        "q90_time_s": 0.02049469663440804
+      }
+    ],
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558
+  },
+  {
+    "rank": 1,
+    "seed": 17,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 5.5304797369792296e-05,
+        "uncertainty_s": 1.7214547977792545e-05,
+        "risk_score": 6.391207135868856e-05,
+        "q90_time_s": 7.251934534758484e-05
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00020222710374237962,
+        "uncertainty_s": 3.757951860272222e-05,
+        "risk_score": 0.00022101686304374073,
+        "q90_time_s": 0.00023980662234510185
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001862500806142187,
+        "uncertainty_s": 0.0022214153540351398,
+        "risk_score": 0.0029732084831597567,
+        "q90_time_s": 0.004083916160177327
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0023064797048627022,
+        "uncertainty_s": 0.0021552013855447106,
+        "risk_score": 0.0033840803976350575,
+        "q90_time_s": 0.004461681090407413
+      }
+    ],
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05
+  },
+  {
+    "rank": 1,
+    "seed": 17,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00045374914121754654,
+        "uncertainty_s": 0.0004113359593370379,
+        "risk_score": 0.0006594171208860655,
+        "q90_time_s": 0.0008650851005545844
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00044599107311055024,
+        "uncertainty_s": 0.00045668780099578565,
+        "risk_score": 0.0006743349736084431,
+        "q90_time_s": 0.0009026788741063359
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0007876556910126515,
+        "uncertainty_s": 0.000993882775039557,
+        "risk_score": 0.0012845970785324299,
+        "q90_time_s": 0.0017815384660522084
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.01547239528515963,
+        "uncertainty_s": 0.018744824757063842,
+        "risk_score": 0.02484480766369155,
+        "q90_time_s": 0.034217220042223474
+      }
+    ],
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.0002359529999012011
+  },
+  {
+    "rank": 2,
+    "seed": 17,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "predictions": [
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004729275405470366,
+        "uncertainty_s": 0.000385715775720565,
+        "risk_score": 0.0006657854284073191,
+        "q90_time_s": 0.0008586433162676016
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0005356533144820036,
+        "uncertainty_s": 0.0004932980232801337,
+        "risk_score": 0.0007823023261220704,
+        "q90_time_s": 0.0010289513377621372
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0011480130427227058,
+        "uncertainty_s": 0.0011194370084535,
+        "risk_score": 0.0017077315469494559,
+        "q90_time_s": 0.002267450051176206
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.03684064288690141,
+        "uncertainty_s": 0.0467202196947149,
+        "risk_score": 0.06020075273425886,
+        "q90_time_s": 0.08356086258161631
+      }
+    ],
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.0002985869998610724
+  },
+  {
+    "rank": 2,
+    "seed": 17,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0007512240875129089,
+        "uncertainty_s": 0.0005787098256250456,
+        "risk_score": 0.0010405790003254318,
+        "q90_time_s": 0.0013299339131379545
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0007850052177566392,
+        "uncertainty_s": 0.000690210341558357,
+        "risk_score": 0.0011301103885358178,
+        "q90_time_s": 0.0014752155593149962
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001175389096600859,
+        "uncertainty_s": 0.001165243773734117,
+        "risk_score": 0.0017580109834679175,
+        "q90_time_s": 0.002340632870334976
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.07284551765521445,
+        "uncertainty_s": 0.09121667320608522,
+        "risk_score": 0.11845385425825705,
+        "q90_time_s": 0.16406219086129967
+      }
+    ],
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.0004105990001335158
+  },
+  {
+    "rank": 2,
+    "seed": 17,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00012465078153093875,
+        "uncertainty_s": 0.000121188013733712,
+        "risk_score": 0.00018524478839779474,
+        "q90_time_s": 0.00024583879526465075
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0002726607378467851,
+        "uncertainty_s": 0.00016439825609552977,
+        "risk_score": 0.00035485986589455,
+        "q90_time_s": 0.0004370589939423149
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.000378692731573048,
+        "uncertainty_s": 0.0003593575819427262,
+        "risk_score": 0.0005583715225444111,
+        "q90_time_s": 0.0007380503135157742
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.010405497715628886,
+        "uncertainty_s": 0.011807385893406599,
+        "risk_score": 0.016309190662332183,
+        "q90_time_s": 0.022212883609035484
+      }
+    ],
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05
+  },
+  {
+    "rank": 2,
+    "seed": 17,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.000573803904739632,
+        "uncertainty_s": 0.0004940343908558285,
+        "risk_score": 0.0008208211001675461,
+        "q90_time_s": 0.0010678382955954604
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00060368065852219,
+        "uncertainty_s": 0.0005718949031169047,
+        "risk_score": 0.0008896281100806424,
+        "q90_time_s": 0.0011755755616390947
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0006704412405390936,
+        "uncertainty_s": 0.0006617010494452051,
+        "risk_score": 0.001001291765261696,
+        "q90_time_s": 0.0013321422899842986
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.04325173206477007,
+        "uncertainty_s": 0.0507822940333077,
+        "risk_score": 0.06864287908142393,
+        "q90_time_s": 0.09403402609807777
+      }
+    ],
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487
+  },
+  {
+    "rank": 3,
+    "seed": 17,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.6721906704274017,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0004487079100178199,
+        "uncertainty_s": 0.0002556751071483088,
+        "risk_score": 0.0005765454635919743,
+        "q90_time_s": 0.0007043830171661287
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0009800927247689503,
+        "uncertainty_s": 0.0006643670807616659,
+        "risk_score": 0.0013122762651497832,
+        "q90_time_s": 0.0016444598055306162
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0012193960932150077,
+        "uncertainty_s": 0.0008108649436396789,
+        "risk_score": 0.001624828565034847,
+        "q90_time_s": 0.0020302610368546866
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.026633016666634868,
+        "uncertainty_s": 0.032924786178177214,
+        "risk_score": 0.04309540975572347,
+        "q90_time_s": 0.05955780284481208
+      }
+    ],
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.0005812100000639475
+  },
+  {
+    "rank": 3,
+    "seed": 17,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0004487079100178199,
+        "uncertainty_s": 0.0002556751071483088,
+        "risk_score": 0.0005765454635919743,
+        "q90_time_s": 0.0007043830171661287
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005208490037076544,
+        "uncertainty_s": 0.0003547142905538762,
+        "risk_score": 0.0006982061489845925,
+        "q90_time_s": 0.0008755632942615306
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0011979301390695573,
+        "uncertainty_s": 0.0008020599740699878,
+        "risk_score": 0.0015989601261045512,
+        "q90_time_s": 0.001999990113139545
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.024960608686335435,
+        "uncertainty_s": 0.029239887488020963,
+        "risk_score": 0.03958055243034592,
+        "q90_time_s": 0.0542004961743564
+      }
+    ],
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416
+  },
+  {
+    "rank": 3,
+    "seed": 17,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00014295784107023904,
+        "uncertainty_s": 0.00016551402670626205,
+        "risk_score": 0.00022571485442337007,
+        "q90_time_s": 0.0003084718677765011
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00028553584006688965,
+        "uncertainty_s": 0.00016990207057376145,
+        "risk_score": 0.0003704868753537704,
+        "q90_time_s": 0.0004554379106406511
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001295768452311434,
+        "uncertainty_s": 0.0011178268035086014,
+        "risk_score": 0.0018546818540657348,
+        "q90_time_s": 0.0024135952558200354
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.010861818418950734,
+        "uncertainty_s": 0.013485541339676332,
+        "risk_score": 0.0176045890887889,
+        "q90_time_s": 0.024347359758627066
+      }
+    ],
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05
+  },
+  {
+    "rank": 3,
+    "seed": 17,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00041628121582296324,
+        "uncertainty_s": 0.00025290588824675706,
+        "risk_score": 0.0005427341599463418,
+        "q90_time_s": 0.0006691871040697203
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00045528389001986874,
+        "uncertainty_s": 0.00021516987416928386,
+        "risk_score": 0.0005628688271045106,
+        "q90_time_s": 0.0006704537641891526
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0012223376847725778,
+        "uncertainty_s": 0.000839375260700708,
+        "risk_score": 0.0016420253151229317,
+        "q90_time_s": 0.002061712945473286
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.04250548806486459,
+        "uncertainty_s": 0.04479277796978789,
+        "risk_score": 0.06490187704975853,
+        "q90_time_s": 0.08729826603465247
+      }
+    ],
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.000440575000084209
+  },
+  {
+    "rank": 0,
+    "seed": 29,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00011525871521622346,
+        "uncertainty_s": 9.256778986788125e-05,
+        "risk_score": 0.0001615426101501641,
+        "q90_time_s": 0.0002078265050841047
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0005441921287056867,
+        "uncertainty_s": 0.0006050270586113427,
+        "risk_score": 0.0008467056580113581,
+        "q90_time_s": 0.0011492191873170294
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0020001560323504256,
+        "uncertainty_s": 0.001940642749956814,
+        "risk_score": 0.0029704774073288326,
+        "q90_time_s": 0.0039407987823072395
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0029074927942088448,
+        "uncertainty_s": 0.0025057602935820667,
+        "risk_score": 0.004160372940999878,
+        "q90_time_s": 0.0054132530877909115
+      }
+    ],
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05
+  },
+  {
+    "rank": 0,
+    "seed": 29,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00011969927432218458,
+        "uncertainty_s": 0.00010145219203109929,
+        "risk_score": 0.00017042537033773423,
+        "q90_time_s": 0.00022115146635328387
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005532093213236411,
+        "uncertainty_s": 0.0005420281232943172,
+        "risk_score": 0.0008242233829707997,
+        "q90_time_s": 0.0010952374446179583
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0005316223159126342,
+        "uncertainty_s": 0.0006187400758986754,
+        "risk_score": 0.0008409923538619719,
+        "q90_time_s": 0.0011503623918113096
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.004955325839404069,
+        "uncertainty_s": 0.0056301102386390415,
+        "risk_score": 0.00777038095872359,
+        "q90_time_s": 0.01058543607804311
+      }
+    ],
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05
+  },
+  {
+    "rank": 0,
+    "seed": 29,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 6.429613422050451e-05,
+        "uncertainty_s": 3.251348897177639e-05,
+        "risk_score": 8.055287870639271e-05,
+        "q90_time_s": 9.68096231922809e-05
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00020710388803719723,
+        "uncertainty_s": 4.6696897176913126e-05,
+        "risk_score": 0.0002304523366256538,
+        "q90_time_s": 0.00025380078521411036
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.000665218184554968,
+        "uncertainty_s": 0.0008221452294960406,
+        "risk_score": 0.0010762907993029883,
+        "q90_time_s": 0.0014873634140510085
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.002622312425045439,
+        "uncertainty_s": 0.002165431390362035,
+        "risk_score": 0.0037050281202264564,
+        "q90_time_s": 0.004787743815407474
+      }
+    ],
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05
+  },
+  {
+    "rank": 0,
+    "seed": 29,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0001322649028207183,
+        "uncertainty_s": 0.00010269489340361911,
+        "risk_score": 0.00018361234952252785,
+        "q90_time_s": 0.0002349597962243374
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00025547472807821664,
+        "uncertainty_s": 9.1564914306232e-05,
+        "risk_score": 0.00030125718523133264,
+        "q90_time_s": 0.00034703964238444864
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00027877366836757,
+        "uncertainty_s": 0.00011886220229153689,
+        "risk_score": 0.00033820476951333846,
+        "q90_time_s": 0.0003976358706591069
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.03442253772476042,
+        "uncertainty_s": 0.033815834982310625,
+        "risk_score": 0.051330455215915734,
+        "q90_time_s": 0.06823837270707105
+      }
+    ],
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 4.202399986752425e-05
+  },
+  {
+    "rank": 1,
+    "seed": 29,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 5.9393236934447274e-05,
+        "uncertainty_s": 4.3817738307393606e-05,
+        "risk_score": 8.130210608814408e-05,
+        "q90_time_s": 0.00010321097524184088
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00020476182153605994,
+        "uncertainty_s": 6.838882799122174e-05,
+        "risk_score": 0.0002389562355316708,
+        "q90_time_s": 0.0002731506495272817
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0011659123115125402,
+        "uncertainty_s": 0.0013995124722179623,
+        "risk_score": 0.0018656685476215215,
+        "q90_time_s": 0.0025654247837305025
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.001953987945018804,
+        "uncertainty_s": 0.001954195893389477,
+        "risk_score": 0.0029310858917135424,
+        "q90_time_s": 0.003908183838408281
+      }
+    ],
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057
+  },
+  {
+    "rank": 1,
+    "seed": 29,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00010621779051027192,
+        "uncertainty_s": 0.00011657474638023534,
+        "risk_score": 0.0001645051637003896,
+        "q90_time_s": 0.00022279253689050726
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0003991845579552689,
+        "uncertainty_s": 0.00035064907511292193,
+        "risk_score": 0.0005745090955117299,
+        "q90_time_s": 0.0007498336330681908
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00059293937006503,
+        "uncertainty_s": 0.0006360902755614064,
+        "risk_score": 0.0009109845078457332,
+        "q90_time_s": 0.0012290296456264364
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.011589899312239558,
+        "uncertainty_s": 0.014726153260199819,
+        "risk_score": 0.018952975942339467,
+        "q90_time_s": 0.026316052572439377
+      }
+    ],
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558
+  },
+  {
+    "rank": 1,
+    "seed": 29,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 5.707524217385635e-05,
+        "uncertainty_s": 2.721075171721701e-05,
+        "risk_score": 7.068061803246485e-05,
+        "q90_time_s": 8.428599389107336e-05
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00020034511321163356,
+        "uncertainty_s": 3.935772382472936e-05,
+        "risk_score": 0.00022002397512399822,
+        "q90_time_s": 0.00023970283703636291
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0020144234126123588,
+        "uncertainty_s": 0.0020163540941241934,
+        "risk_score": 0.0030226004596744555,
+        "q90_time_s": 0.004030777506736552
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.002120608015826396,
+        "uncertainty_s": 0.0025301297199496527,
+        "risk_score": 0.0033856728758012225,
+        "q90_time_s": 0.004650737735776049
+      }
+    ],
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05
+  },
+  {
+    "rank": 1,
+    "seed": 29,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numba_parallel",
+    "correct": false,
+    "regret": 0.03126046380201797,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0003180929682280864,
+        "uncertainty_s": 0.00025895093516994434,
+        "risk_score": 0.00044756843581305857,
+        "q90_time_s": 0.0005770439033980307
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0004343401332364079,
+        "uncertainty_s": 0.0003807969688971941,
+        "risk_score": 0.0006247386176850049,
+        "q90_time_s": 0.000815137102133602
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0007417859278750532,
+        "uncertainty_s": 0.0009445216793104405,
+        "risk_score": 0.0012140467675302734,
+        "q90_time_s": 0.0016863076071854937
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.010733455310005907,
+        "uncertainty_s": 0.013481827577824785,
+        "risk_score": 0.0174743690989183,
+        "q90_time_s": 0.024215282887830692
+      }
+    ],
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.00024332900011359015
+  },
+  {
+    "rank": 2,
+    "seed": 29,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "predictions": [
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0005506511275271051,
+        "uncertainty_s": 0.0004985624242046763,
+        "risk_score": 0.0007999323396294432,
+        "q90_time_s": 0.0010492135517317814
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0005445933566748131,
+        "uncertainty_s": 0.0005768325175175893,
+        "risk_score": 0.0008330096154336077,
+        "q90_time_s": 0.0011214258741924024
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0010924241861278337,
+        "uncertainty_s": 0.0010819672541861186,
+        "risk_score": 0.0016334078132208929,
+        "q90_time_s": 0.0021743914403139523
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.02245579489912908,
+        "uncertainty_s": 0.02793136586298642,
+        "risk_score": 0.036421477830622294,
+        "q90_time_s": 0.0503871607621155
+      }
+    ],
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.0002985869998610724
+  },
+  {
+    "rank": 2,
+    "seed": 29,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numpy",
+    "correct": false,
+    "regret": 0.31980350624794585,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0007310924895055572,
+        "uncertainty_s": 0.0006354250638122298,
+        "risk_score": 0.0010488050214116722,
+        "q90_time_s": 0.001366517553317787
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0007644422650915477,
+        "uncertainty_s": 0.000645433831365225,
+        "risk_score": 0.0010871591807741603,
+        "q90_time_s": 0.0014098760964567727
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00131291947655039,
+        "uncertainty_s": 0.0012038133290607875,
+        "risk_score": 0.0019148261410807837,
+        "q90_time_s": 0.0025167328056111774
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.07259226037079956,
+        "uncertainty_s": 0.09022965628091757,
+        "risk_score": 0.11770708851125836,
+        "q90_time_s": 0.16282191665171714
+      }
+    ],
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.000541910000038115
+  },
+  {
+    "rank": 2,
+    "seed": 29,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00012278534067028534,
+        "uncertainty_s": 0.00011712297693166059,
+        "risk_score": 0.00018134682913611565,
+        "q90_time_s": 0.00023990831760194593
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00025276274484275254,
+        "uncertainty_s": 0.00014637641859020464,
+        "risk_score": 0.00032595095413785486,
+        "q90_time_s": 0.0003991391634329572
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0002750355351466528,
+        "uncertainty_s": 0.000138763337866068,
+        "risk_score": 0.0003444172040796868,
+        "q90_time_s": 0.0004137988730127208
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.010502399379896641,
+        "uncertainty_s": 0.01162796032777166,
+        "risk_score": 0.01631637954378247,
+        "q90_time_s": 0.0221303597076683
+      }
+    ],
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05
+  },
+  {
+    "rank": 2,
+    "seed": 29,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005647402043519107,
+        "uncertainty_s": 0.0004885954567987446,
+        "risk_score": 0.000809037932751283,
+        "q90_time_s": 0.0010533356611506554
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0006160201898235796,
+        "uncertainty_s": 0.0006119328315984512,
+        "risk_score": 0.0009219866056228052,
+        "q90_time_s": 0.0012279530214220308
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0006277351431245236,
+        "uncertainty_s": 0.0006239718901615761,
+        "risk_score": 0.0009397210882053117,
+        "q90_time_s": 0.0012517070332860997
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.02867865613233138,
+        "uncertainty_s": 0.03347373329011107,
+        "risk_score": 0.04541552277738692,
+        "q90_time_s": 0.06215238942244245
+      }
+    ],
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487
+  },
+  {
+    "rank": 3,
+    "seed": 29,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.6721906704274017,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0004797659624251686,
+        "uncertainty_s": 0.00034178366962775593,
+        "risk_score": 0.0006506577972390465,
+        "q90_time_s": 0.0008215496320529245
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0009326794226378871,
+        "uncertainty_s": 0.0006021255711275464,
+        "risk_score": 0.0012337422082016603,
+        "q90_time_s": 0.0015348049937654335
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001083556174202889,
+        "uncertainty_s": 0.0008266850705307518,
+        "risk_score": 0.001496898709468265,
+        "q90_time_s": 0.0019102412447336407
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.029434777708173005,
+        "uncertainty_s": 0.03491984911414009,
+        "risk_score": 0.046894702265243046,
+        "q90_time_s": 0.06435462682231309
+      }
+    ],
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.0005812100000639475
+  },
+  {
+    "rank": 3,
+    "seed": 29,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00047373519303140426,
+        "uncertainty_s": 0.0002782524452793781,
+        "risk_score": 0.0006128614156710933,
+        "q90_time_s": 0.0007519876383107823
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0004900479380819668,
+        "uncertainty_s": 0.00028800766842263935,
+        "risk_score": 0.0006340517722932865,
+        "q90_time_s": 0.0007780556065046061
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0012543621717546777,
+        "uncertainty_s": 0.000884290757666882,
+        "risk_score": 0.0016965075505881188,
+        "q90_time_s": 0.0021386529294215597
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.02935498047788151,
+        "uncertainty_s": 0.03444215975479986,
+        "risk_score": 0.046576060355281446,
+        "q90_time_s": 0.06379714023268138
+      }
+    ],
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416
+  },
+  {
+    "rank": 3,
+    "seed": 29,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0001712021744335229,
+        "uncertainty_s": 0.00020539287820558894,
+        "risk_score": 0.00027389861353631736,
+        "q90_time_s": 0.00037659505263911184
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0002939411369863005,
+        "uncertainty_s": 0.00018820638465149615,
+        "risk_score": 0.0003880443293120486,
+        "q90_time_s": 0.00048214752163779664
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001295468905441088,
+        "uncertainty_s": 0.001223573743388731,
+        "risk_score": 0.0019072557771354533,
+        "q90_time_s": 0.002519042648829819
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.024034887483181444,
+        "uncertainty_s": 0.03006731788433606,
+        "risk_score": 0.039068546425349474,
+        "q90_time_s": 0.0541022053675175
+      }
+    ],
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05
+  },
+  {
+    "rank": 3,
+    "seed": 29,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00039925275376399117,
+        "uncertainty_s": 0.00021918863876499575,
+        "risk_score": 0.0005088470731464891,
+        "q90_time_s": 0.0006184413925289869
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0004851017522869609,
+        "uncertainty_s": 0.00038581589392851174,
+        "risk_score": 0.0006780096992512168,
+        "q90_time_s": 0.0008709176462154726
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001085932940458219,
+        "uncertainty_s": 0.0008667443986409957,
+        "risk_score": 0.001519305139778717,
+        "q90_time_s": 0.0019526773390992147
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.04472049408570763,
+        "uncertainty_s": 0.0500180205337474,
+        "risk_score": 0.06972950435258132,
+        "q90_time_s": 0.09473851461945502
+      }
+    ],
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.000440575000084209
+  },
+  {
+    "rank": 0,
+    "seed": 41,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00010048596870011372,
+        "uncertainty_s": 6.899401255711924e-05,
+        "risk_score": 0.00013498297497867333,
+        "q90_time_s": 0.00016947998125723296
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0005558066043212007,
+        "uncertainty_s": 0.0006220357256937306,
+        "risk_score": 0.0008668244671680659,
+        "q90_time_s": 0.0011778423300149313
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0017892988864144277,
+        "uncertainty_s": 0.0019178340195765327,
+        "risk_score": 0.002748215896202694,
+        "q90_time_s": 0.0037071329059909603
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0028095784356403537,
+        "uncertainty_s": 0.00248237683831949,
+        "risk_score": 0.004050766854800099,
+        "q90_time_s": 0.005291955273959844
+      }
+    ],
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05
+  },
+  {
+    "rank": 0,
+    "seed": 41,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00010048596870011372,
+        "uncertainty_s": 6.899401255711924e-05,
+        "risk_score": 0.00013498297497867333,
+        "q90_time_s": 0.00016947998125723296
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005355073638242085,
+        "uncertainty_s": 0.000519842403700784,
+        "risk_score": 0.0007954285656746004,
+        "q90_time_s": 0.0010553497675249925
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0005434662025425703,
+        "uncertainty_s": 0.0006459072646536043,
+        "risk_score": 0.0008664198348693724,
+        "q90_time_s": 0.0011893734671961746
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.003928946685746347,
+        "uncertainty_s": 0.004176395983453097,
+        "risk_score": 0.006017144677472896,
+        "q90_time_s": 0.008105342669199444
+      }
+    ],
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05
+  },
+  {
+    "rank": 0,
+    "seed": 41,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 6.243004972287378e-05,
+        "uncertainty_s": 2.9950840988353334e-05,
+        "risk_score": 7.740547021705045e-05,
+        "q90_time_s": 9.238089071122711e-05
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00020751772216706394,
+        "uncertainty_s": 4.176242450049767e-05,
+        "risk_score": 0.00022839893441731278,
+        "q90_time_s": 0.0002492801466675616
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0013128330597720088,
+        "uncertainty_s": 0.0016582405131709659,
+        "risk_score": 0.0021419533163574917,
+        "q90_time_s": 0.0029710735729429746
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0022771124678225905,
+        "uncertainty_s": 0.0014621416456095182,
+        "risk_score": 0.0030081832906273497,
+        "q90_time_s": 0.0037392541134321088
+      }
+    ],
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05
+  },
+  {
+    "rank": 0,
+    "seed": 41,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0001150805268341113,
+        "uncertainty_s": 9.390514582208812e-05,
+        "risk_score": 0.00016203309974515537,
+        "q90_time_s": 0.00020898567265619942
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00024564271746204503,
+        "uncertainty_s": 7.143207177062326e-05,
+        "risk_score": 0.00028135875334735666,
+        "q90_time_s": 0.0003170747892326683
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0002747689217882815,
+        "uncertainty_s": 0.00011453071653071129,
+        "risk_score": 0.0003320342800536371,
+        "q90_time_s": 0.0003892996383189928
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.04705016494524706,
+        "uncertainty_s": 0.042589199425238804,
+        "risk_score": 0.06834476465786646,
+        "q90_time_s": 0.08963936437048586
+      }
+    ],
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 4.202399986752425e-05
+  },
+  {
+    "rank": 1,
+    "seed": 41,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 5.629975860431464e-05,
+        "uncertainty_s": 2.543397249192059e-05,
+        "risk_score": 6.901674485027493e-05,
+        "q90_time_s": 8.173373109623523e-05
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.000188962130914041,
+        "uncertainty_s": 4.835411615528189e-05,
+        "risk_score": 0.00021313918899168194,
+        "q90_time_s": 0.0002373162470693229
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0008372763856206207,
+        "uncertainty_s": 0.000978534330496622,
+        "risk_score": 0.0013265435508689315,
+        "q90_time_s": 0.0018158107161172425
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.002221217398040587,
+        "uncertainty_s": 0.0021899325872164247,
+        "risk_score": 0.0033161836916487993,
+        "q90_time_s": 0.004411149985257012
+      }
+    ],
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057
+  },
+  {
+    "rank": 1,
+    "seed": 41,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 9.61413696573451e-05,
+        "uncertainty_s": 9.11288184519499e-05,
+        "risk_score": 0.00014170577888332004,
+        "q90_time_s": 0.000187270188109295
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0003577734235372721,
+        "uncertainty_s": 0.00027734588027417194,
+        "risk_score": 0.0004964463636743581,
+        "q90_time_s": 0.0006351193038114441
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0006339284446313343,
+        "uncertainty_s": 0.0007058170656957057,
+        "risk_score": 0.000986836977479187,
+        "q90_time_s": 0.00133974551032704
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.00922706827440604,
+        "uncertainty_s": 0.011725824769213878,
+        "risk_score": 0.015089980659012979,
+        "q90_time_s": 0.020952893043619917
+      }
+    ],
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558
+  },
+  {
+    "rank": 1,
+    "seed": 41,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 5.356870918171095e-05,
+        "uncertainty_s": 1.6040966373901293e-05,
+        "risk_score": 6.158919236866159e-05,
+        "q90_time_s": 6.960967555561224e-05
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00020483168637358779,
+        "uncertainty_s": 3.4079609854042575e-05,
+        "risk_score": 0.00022187149130060909,
+        "q90_time_s": 0.00023891129622763036
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0025668871871750154,
+        "uncertainty_s": 0.0025417380721051604,
+        "risk_score": 0.0038377562232275956,
+        "q90_time_s": 0.005108625259280176
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0028264196556028586,
+        "uncertainty_s": 0.003183592416877111,
+        "risk_score": 0.0044182158640414144,
+        "q90_time_s": 0.006010012072479969
+      }
+    ],
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05
+  },
+  {
+    "rank": 1,
+    "seed": 41,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numba_parallel",
+    "correct": false,
+    "regret": 0.03126046380201797,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004018279208440425,
+        "uncertainty_s": 0.0003750337302914072,
+        "risk_score": 0.000589344785989746,
+        "q90_time_s": 0.0007768616511354497
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0004971894567085822,
+        "uncertainty_s": 0.00046950910822024343,
+        "risk_score": 0.0007319440108187039,
+        "q90_time_s": 0.0009666985649288256
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.000727569748221256,
+        "uncertainty_s": 0.000925686522109138,
+        "risk_score": 0.0011904130092758249,
+        "q90_time_s": 0.001653256270330394
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.02723008971614612,
+        "uncertainty_s": 0.029415387356466496,
+        "risk_score": 0.04193778339437937,
+        "q90_time_s": 0.05664547707261262
+      }
+    ],
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.00024332900011359015
+  },
+  {
+    "rank": 2,
+    "seed": 41,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba_parallel",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "predictions": [
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004673825462748829,
+        "uncertainty_s": 0.00041362298932771664,
+        "risk_score": 0.0006741940409387413,
+        "q90_time_s": 0.0008810055356025995
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00046103980387561885,
+        "uncertainty_s": 0.0004996295393376189,
+        "risk_score": 0.0007108545735444282,
+        "q90_time_s": 0.0009606693432132377
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0009634059695172359,
+        "uncertainty_s": 0.000979016756815756,
+        "risk_score": 0.0014529143479251139,
+        "q90_time_s": 0.0019424227263329919
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.03644690887920968,
+        "uncertainty_s": 0.046374662917929674,
+        "risk_score": 0.059634240338174514,
+        "q90_time_s": 0.08282157179713935
+      }
+    ],
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.0002985869998610724
+  },
+  {
+    "rank": 2,
+    "seed": 41,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0006310249750142023,
+        "uncertainty_s": 0.0006026172172088842,
+        "risk_score": 0.0009323335836186443,
+        "q90_time_s": 0.0012336421922230865
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00070810208189821,
+        "uncertainty_s": 0.000641823698575713,
+        "risk_score": 0.0010290139311860665,
+        "q90_time_s": 0.001349925780473923
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0014845415266062894,
+        "uncertainty_s": 0.0016598452134597107,
+        "risk_score": 0.0023144641333361447,
+        "q90_time_s": 0.003144386740066
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.05544246316967906,
+        "uncertainty_s": 0.06568280321142317,
+        "risk_score": 0.08828386477539064,
+        "q90_time_s": 0.12112526638110223
+      }
+    ],
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.0004105990001335158
+  },
+  {
+    "rank": 2,
+    "seed": 41,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0001088996476284538,
+        "uncertainty_s": 9.432506381528731e-05,
+        "risk_score": 0.00015606217953609747,
+        "q90_time_s": 0.0002032247114437411
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00025435487766561226,
+        "uncertainty_s": 8.201872338418605e-05,
+        "risk_score": 0.0002953642393577053,
+        "q90_time_s": 0.0003363736010497983
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004339081874834631,
+        "uncertainty_s": 0.0004544093991058235,
+        "risk_score": 0.0006611128870363748,
+        "q90_time_s": 0.0008883175865892866
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.010021212843620503,
+        "uncertainty_s": 0.01032706543179609,
+        "risk_score": 0.015184745559518549,
+        "q90_time_s": 0.020348278275416593
+      }
+    ],
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05
+  },
+  {
+    "rank": 2,
+    "seed": 41,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005594411413371555,
+        "uncertainty_s": 0.0004958372061135883,
+        "risk_score": 0.0008073597443939496,
+        "q90_time_s": 0.0010552783474507437
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.000554004288041665,
+        "uncertainty_s": 0.0005753478007610895,
+        "risk_score": 0.0008416781884222098,
+        "q90_time_s": 0.0011293520888027546
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0008234219427847208,
+        "uncertainty_s": 0.0008773644483983575,
+        "risk_score": 0.0012621041669838996,
+        "q90_time_s": 0.0017007863911830783
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.040051622327257334,
+        "uncertainty_s": 0.04795751517149905,
+        "risk_score": 0.06403037991300686,
+        "q90_time_s": 0.08800913749875638
+      }
+    ],
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487
+  },
+  {
+    "rank": 3,
+    "seed": 41,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.6721906704274017,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0004394730840268289,
+        "uncertainty_s": 0.00029677595264722574,
+        "risk_score": 0.0005878610603504417,
+        "q90_time_s": 0.0007362490366740547
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.000879708170229525,
+        "uncertainty_s": 0.000685945399157918,
+        "risk_score": 0.001222680869808484,
+        "q90_time_s": 0.001565653569387443
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001247289874172789,
+        "uncertainty_s": 0.0011392507373626,
+        "risk_score": 0.001816915242854089,
+        "q90_time_s": 0.002386540611535389
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.03207886903506589,
+        "uncertainty_s": 0.037774297501827744,
+        "risk_score": 0.05096601778597976,
+        "q90_time_s": 0.06985316653689363
+      }
+    ],
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.0005812100000639475
+  },
+  {
+    "rank": 3,
+    "seed": 41,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0004394730840268289,
+        "uncertainty_s": 0.00029677595264722574,
+        "risk_score": 0.0005878610603504417,
+        "q90_time_s": 0.0007362490366740547
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005347178012991677,
+        "uncertainty_s": 0.00039444377277704837,
+        "risk_score": 0.000731939687687692,
+        "q90_time_s": 0.0009291615740762161
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001412322332432253,
+        "uncertainty_s": 0.001354206949337396,
+        "risk_score": 0.002089425807100951,
+        "q90_time_s": 0.002766529281769649
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.03067541825382639,
+        "uncertainty_s": 0.03549940746413746,
+        "risk_score": 0.04842512198589512,
+        "q90_time_s": 0.06617482571796385
+      }
+    ],
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416
+  },
+  {
+    "rank": 3,
+    "seed": 41,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00019359808731053146,
+        "uncertainty_s": 0.0002356747722643424,
+        "risk_score": 0.0003114354734427027,
+        "q90_time_s": 0.00042927285957487386
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0002949147896547788,
+        "uncertainty_s": 0.00022763432776267334,
+        "risk_score": 0.0004087319535361155,
+        "q90_time_s": 0.0005225491174174521
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0014823966204520278,
+        "uncertainty_s": 0.0015642063527005973,
+        "risk_score": 0.0022644997968023265,
+        "q90_time_s": 0.003046602973152625
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.015733370146237814,
+        "uncertainty_s": 0.01970796597243724,
+        "risk_score": 0.025587353132456435,
+        "q90_time_s": 0.03544133611867505
+      }
+    ],
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05
+  },
+  {
+    "rank": 3,
+    "seed": 41,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 3.0976246942136942,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00044051192389487866,
+        "uncertainty_s": 0.00022538635839713527,
+        "risk_score": 0.0005532051030934463,
+        "q90_time_s": 0.0006658982822920139
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00043378956607244545,
+        "uncertainty_s": 0.0002975431985777922,
+        "risk_score": 0.0005825611653613416,
+        "q90_time_s": 0.0007313327646502377
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0012471409705220686,
+        "uncertainty_s": 0.0011204804437858196,
+        "risk_score": 0.0018073811924149783,
+        "q90_time_s": 0.0023676214143078882
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.039445452791889886,
+        "uncertainty_s": 0.04173683065895336,
+        "risk_score": 0.06031386812136656,
+        "q90_time_s": 0.08118228345084325
+      }
+    ],
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.0018053109999982553
+  },
+  {
+    "rank": 0,
+    "seed": 73,
+    "workload": "black_scholes",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 5.982438825371601,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00010945984312895585,
+        "uncertainty_s": 8.234316188738798e-05,
+        "risk_score": 0.00015063142407264985,
+        "q90_time_s": 0.00019180300501634383
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004881264338258569,
+        "uncertainty_s": 0.0005119046298832262,
+        "risk_score": 0.0007440787487674699,
+        "q90_time_s": 0.0010000310637090831
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.002053348062679945,
+        "uncertainty_s": 0.0021387664831552917,
+        "risk_score": 0.0031227313042575906,
+        "q90_time_s": 0.004192114545835237
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0030037144853357275,
+        "uncertainty_s": 0.0026419103946498934,
+        "risk_score": 0.004324669682660674,
+        "q90_time_s": 0.005645624879985621
+      }
+    ],
+    "oracle_time_s": 5.46659998690302e-05,
+    "selected_time_s": 5.46659998690302e-05
+  },
+  {
+    "rank": 0,
+    "seed": 73,
+    "workload": "monte_carlo",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.268198813907009,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00012116262870371469,
+        "uncertainty_s": 0.00010337657249837299,
+        "risk_score": 0.00017285091495290118,
+        "q90_time_s": 0.00022453920120208768
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0004392005027399837,
+        "uncertainty_s": 0.00047856382397618296,
+        "risk_score": 0.0006784824147280752,
+        "q90_time_s": 0.0009177643267161667
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0004957108716564986,
+        "uncertainty_s": 0.0004929480088566945,
+        "risk_score": 0.0007421848760848458,
+        "q90_time_s": 0.000988658880513193
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.004699776437775974,
+        "uncertainty_s": 0.005267791015840669,
+        "risk_score": 0.007333671945696308,
+        "q90_time_s": 0.009967567453616643
+      }
+    ],
+    "oracle_time_s": 5.58690001071227e-05,
+    "selected_time_s": 5.58690001071227e-05
+  },
+  {
+    "rank": 0,
+    "seed": 73,
+    "workload": "portfolio_risk",
+    "size": 512,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.87471647700838,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 6.291455761914838e-05,
+        "uncertainty_s": 2.9914552211306547e-05,
+        "risk_score": 7.787183372480165e-05,
+        "q90_time_s": 9.282910983045493e-05
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00022564909972961077,
+        "uncertainty_s": 9.114876872232819e-05,
+        "risk_score": 0.00027122348409077486,
+        "q90_time_s": 0.00031679786845193895
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0008398798304007386,
+        "uncertainty_s": 0.0010628803245602816,
+        "risk_score": 0.0013713199926808795,
+        "q90_time_s": 0.0019027601549610202
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0030224051406491266,
+        "uncertainty_s": 0.002742111740133471,
+        "risk_score": 0.004393461010715862,
+        "q90_time_s": 0.005764516880782598
+      }
+    ],
+    "oracle_time_s": 2.6451999929122394e-05,
+    "selected_time_s": 2.6451999929122394e-05
+  },
+  {
+    "rank": 0,
+    "seed": 73,
+    "workload": "rolling_signal",
+    "size": 1024,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.520345534404049,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00014481124922955665,
+        "uncertainty_s": 0.0001320875180946314,
+        "risk_score": 0.00021085500827687235,
+        "q90_time_s": 0.00027689876732418805
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00029841743738128786,
+        "uncertainty_s": 0.00017486807691308469,
+        "risk_score": 0.0003858514758378302,
+        "q90_time_s": 0.00047328551429437254
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00030857025875035223,
+        "uncertainty_s": 0.00022710404016597715,
+        "risk_score": 0.0004221222788333408,
+        "q90_time_s": 0.0005356742989163294
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.05284870538271777,
+        "uncertainty_s": 0.05084430867171627,
+        "risk_score": 0.0782708597185759,
+        "q90_time_s": 0.10369301405443404
+      }
+    ],
+    "oracle_time_s": 4.202399986752425e-05,
+    "selected_time_s": 4.202399986752425e-05
+  },
+  {
+    "rank": 1,
+    "seed": 73,
+    "workload": "black_scholes",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 9.26845091644662,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 5.817512995693181e-05,
+        "uncertainty_s": 3.708316272496858e-05,
+        "risk_score": 7.67167113194161e-05,
+        "q90_time_s": 9.525829268190039e-05
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0001947272912319383,
+        "uncertainty_s": 4.2278497170301785e-05,
+        "risk_score": 0.0002158665398170892,
+        "q90_time_s": 0.0002370057884022401
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0010253067219464396,
+        "uncertainty_s": 0.0012389257050219062,
+        "risk_score": 0.0016447695744573926,
+        "q90_time_s": 0.002264232426968346
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0023860423593138036,
+        "uncertainty_s": 0.0025085184671367017,
+        "risk_score": 0.0036403015928821543,
+        "q90_time_s": 0.004894560826450505
+      }
+    ],
+    "oracle_time_s": 0.00010357200017097057,
+    "selected_time_s": 0.00010357200017097057
+  },
+  {
+    "rank": 1,
+    "seed": 73,
+    "workload": "monte_carlo",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 1.2140429072356502,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 8.43880962531562e-05,
+        "uncertainty_s": 7.90476739540905e-05,
+        "risk_score": 0.00012391193323020144,
+        "q90_time_s": 0.0001634357702072467
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0003721150740279095,
+        "uncertainty_s": 0.0003320171369545453,
+        "risk_score": 0.0005381236425051821,
+        "q90_time_s": 0.0007041322109824548
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0006020534676232043,
+        "uncertainty_s": 0.0006766705408527463,
+        "risk_score": 0.0009403887380495775,
+        "q90_time_s": 0.0012787240084759506
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.009541088077464748,
+        "uncertainty_s": 0.01206390197051384,
+        "risk_score": 0.015573039062721668,
+        "q90_time_s": 0.021604990047978587
+      }
+    ],
+    "oracle_time_s": 0.00015120800003387558,
+    "selected_time_s": 0.00015120800003387558
+  },
+  {
+    "rank": 1,
+    "seed": 73,
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 4.423355685301497,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 6.56541748752932e-05,
+        "uncertainty_s": 4.8856052156145215e-05,
+        "risk_score": 9.008220095336581e-05,
+        "q90_time_s": 0.00011451022703143842
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00020710104327603275,
+        "uncertainty_s": 3.8959443810458386e-05,
+        "risk_score": 0.00022658076518126193,
+        "q90_time_s": 0.00024606048708649114
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0020156883306489126,
+        "uncertainty_s": 0.0023984200673386868,
+        "risk_score": 0.003214898364318256,
+        "q90_time_s": 0.004414108397987599
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.0024707747568834845,
+        "uncertainty_s": 0.002824072575884865,
+        "risk_score": 0.003882811044825917,
+        "q90_time_s": 0.005294847332768349
+      }
+    ],
+    "oracle_time_s": 2.9937000135760172e-05,
+    "selected_time_s": 2.9937000135760172e-05
+  },
+  {
+    "rank": 1,
+    "seed": 73,
+    "workload": "rolling_signal",
+    "size": 4096,
+    "oracle": "numpy",
+    "predicted": "numba_parallel",
+    "correct": false,
+    "regret": 0.03126046380201797,
+    "numba_regret": 0.10474119900837464,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0002833741548164827,
+        "uncertainty_s": 0.00021320718959710238,
+        "risk_score": 0.0003899777496150339,
+        "q90_time_s": 0.0004965813444135851
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00044437558417290916,
+        "uncertainty_s": 0.0004037493151260982,
+        "risk_score": 0.0006462502417359582,
+        "q90_time_s": 0.0008481248992990073
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.000760418188934188,
+        "uncertainty_s": 0.0009365731401564328,
+        "risk_score": 0.0012287047590124043,
+        "q90_time_s": 0.0016969913290906208
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.016836260943623088,
+        "uncertainty_s": 0.02040958948870846,
+        "risk_score": 0.02704105568797732,
+        "q90_time_s": 0.03724585043233155
+      }
+    ],
+    "oracle_time_s": 0.0002359529999012011,
+    "selected_time_s": 0.00024332900011359015
+  },
+  {
+    "rank": 2,
+    "seed": 73,
+    "workload": "black_scholes",
+    "size": 8192,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.03953286723462246,
+    "numba_regret": 0.03953286723462246,
+    "numpy_regret": 6.689453998449663,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00041075724676991005,
+        "uncertainty_s": 0.00043271676148375266,
+        "risk_score": 0.0006271156275117864,
+        "q90_time_s": 0.0008434740082536627
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0005146178022652481,
+        "uncertainty_s": 0.0004834613770327233,
+        "risk_score": 0.0007563484907816098,
+        "q90_time_s": 0.0009980791792979715
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0011461420818969696,
+        "uncertainty_s": 0.0012203227511930054,
+        "risk_score": 0.0017563034574934722,
+        "q90_time_s": 0.002366464833089975
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.022096883358141105,
+        "uncertainty_s": 0.027671236408906577,
+        "risk_score": 0.03593250156259439,
+        "q90_time_s": 0.04976811976704768
+      }
+    ],
+    "oracle_time_s": 0.0002985869998610724,
+    "selected_time_s": 0.00031039100008456444
+  },
+  {
+    "rank": 2,
+    "seed": 73,
+    "workload": "monte_carlo",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 0.31980350624794585,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0007156362583831027,
+        "uncertainty_s": 0.0006980349584790618,
+        "risk_score": 0.0010646537376226336,
+        "q90_time_s": 0.0014136712168621645
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0007857168020692783,
+        "uncertainty_s": 0.0007075818444301615,
+        "risk_score": 0.0011395077242843592,
+        "q90_time_s": 0.0014932986464994398
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0012489109651722102,
+        "uncertainty_s": 0.001366920773534883,
+        "risk_score": 0.0019323713519396517,
+        "q90_time_s": 0.002615831738707093
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.04782284734438407,
+        "uncertainty_s": 0.058051037738230137,
+        "risk_score": 0.07684836621349914,
+        "q90_time_s": 0.10587388508261421
+      }
+    ],
+    "oracle_time_s": 0.0004105990001335158,
+    "selected_time_s": 0.0004105990001335158
+  },
+  {
+    "rank": 2,
+    "seed": 73,
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.4127598363831115,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00012751036713626586,
+        "uncertainty_s": 0.00012569827054123402,
+        "risk_score": 0.00019035950240688289,
+        "q90_time_s": 0.0002532086376774999
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0003222841863241372,
+        "uncertainty_s": 0.00023620714737064905,
+        "risk_score": 0.0004403877600094617,
+        "q90_time_s": 0.0005584913336947863
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0003445625042728663,
+        "uncertainty_s": 0.000300286807613883,
+        "risk_score": 0.0004947059080798078,
+        "q90_time_s": 0.0006448493118867492
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.01019360308724549,
+        "uncertainty_s": 0.010196068600161519,
+        "risk_score": 0.015291637387326248,
+        "q90_time_s": 0.020389671687407008
+      }
+    ],
+    "oracle_time_s": 5.763399985880824e-05,
+    "selected_time_s": 5.763399985880824e-05
+  },
+  {
+    "rank": 2,
+    "seed": 73,
+    "workload": "rolling_signal",
+    "size": 16384,
+    "oracle": "numpy",
+    "predicted": "numpy",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 2.008138606455333,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005203837032673244,
+        "uncertainty_s": 0.0004680088216252985,
+        "risk_score": 0.0007543881140799737,
+        "q90_time_s": 0.000988392524892623
+      },
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.0005216057301408122,
+        "uncertainty_s": 0.0005470303926863515,
+        "risk_score": 0.000795120926483988,
+        "q90_time_s": 0.0010686361228271638
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0007316213510652307,
+        "uncertainty_s": 0.0007960026634059028,
+        "risk_score": 0.001129622682768182,
+        "q90_time_s": 0.0015276240144711335
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.03437932004199106,
+        "uncertainty_s": 0.03801726284242773,
+        "risk_score": 0.05338795146320492,
+        "q90_time_s": 0.07239658288441879
+      }
+    ],
+    "oracle_time_s": 0.0003270830000019487,
+    "selected_time_s": 0.0003270830000019487
+  },
+  {
+    "rank": 3,
+    "seed": 73,
+    "workload": "black_scholes",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.6721906704274017,
+    "numba_regret": 0.6721906704274017,
+    "numpy_regret": 10.845684660390228,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00043326136110279285,
+        "uncertainty_s": 0.0002677072415070036,
+        "risk_score": 0.0005671149818562947,
+        "q90_time_s": 0.0007009686026097964
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0009487267601428339,
+        "uncertainty_s": 0.0006018276600945321,
+        "risk_score": 0.0012496405901901,
+        "q90_time_s": 0.001550554420237366
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0011570725193096362,
+        "uncertainty_s": 0.0009977827737151555,
+        "risk_score": 0.001655963906167214,
+        "q90_time_s": 0.0021548552930247917
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.023306324876551997,
+        "uncertainty_s": 0.028852624105836912,
+        "risk_score": 0.03773263692947045,
+        "q90_time_s": 0.05215894898238891
+      }
+    ],
+    "oracle_time_s": 0.00034757399998852634,
+    "selected_time_s": 0.0005812100000639475
+  },
+  {
+    "rank": 3,
+    "seed": 73,
+    "workload": "monte_carlo",
+    "size": 16384,
+    "oracle": "numba_parallel",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 0.3684019318076217,
+    "numba_regret": 0.3684019318076217,
+    "numpy_regret": 0.5824268654677764,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00043326136110279285,
+        "uncertainty_s": 0.0002677072415070036,
+        "risk_score": 0.0005671149818562947,
+        "q90_time_s": 0.0007009686026097964
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.0005054824455063635,
+        "uncertainty_s": 0.0003182636541596007,
+        "risk_score": 0.0006646142725861638,
+        "q90_time_s": 0.0008237460996659642
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.00115704562279063,
+        "uncertainty_s": 0.0009864663018212625,
+        "risk_score": 0.0016502787737012613,
+        "q90_time_s": 0.0021435119246118925
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.021421690921485447,
+        "uncertainty_s": 0.023991782269261127,
+        "risk_score": 0.03341758205611601,
+        "q90_time_s": 0.045413473190746574
+      }
+    ],
+    "oracle_time_s": 0.0005587619998550508,
+    "selected_time_s": 0.0007646110000223416
+  },
+  {
+    "rank": 3,
+    "seed": 73,
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "oracle": "numba",
+    "predicted": "numba",
+    "correct": true,
+    "regret": 0.0,
+    "numba_regret": 0.0,
+    "numpy_regret": 2.2767406558358476,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00021642922647227046,
+        "uncertainty_s": 0.00026642203435865534,
+        "risk_score": 0.00034964024365159816,
+        "q90_time_s": 0.0004828512608309258
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00033212915463400115,
+        "uncertainty_s": 0.00023448561528667652,
+        "risk_score": 0.0004493719622773394,
+        "q90_time_s": 0.0005666147699206777
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.001276970779441729,
+        "uncertainty_s": 0.0014236254285177627,
+        "risk_score": 0.0019887834937006104,
+        "q90_time_s": 0.0027005962079594916
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.015704706667621957,
+        "uncertainty_s": 0.01979158162062078,
+        "risk_score": 0.025600497477932346,
+        "q90_time_s": 0.035496288288242736
+      }
+    ],
+    "oracle_time_s": 7.708299995101697e-05,
+    "selected_time_s": 7.708299995101697e-05
+  },
+  {
+    "rank": 3,
+    "seed": 73,
+    "workload": "rolling_signal",
+    "size": 32768,
+    "oracle": "numpy",
+    "predicted": "numba",
+    "correct": false,
+    "regret": 3.0976246942136942,
+    "numba_regret": 3.0976246942136942,
+    "numpy_regret": 0.0,
+    "predictions": [
+      {
+        "backend": "numba",
+        "predicted_time_s": 0.00044246293962309506,
+        "uncertainty_s": 0.000258201858449562,
+        "risk_score": 0.000571563868847876,
+        "q90_time_s": 0.000700664798072657
+      },
+      {
+        "backend": "numpy",
+        "predicted_time_s": 0.00043246079731725244,
+        "uncertainty_s": 0.000281822904077996,
+        "risk_score": 0.0005733722493562504,
+        "q90_time_s": 0.0007142837013952484
+      },
+      {
+        "backend": "numba_parallel",
+        "predicted_time_s": 0.0012167715465654762,
+        "uncertainty_s": 0.0010465856458159156,
+        "risk_score": 0.001740064369473434,
+        "q90_time_s": 0.0022633571923813918
+      },
+      {
+        "backend": "python",
+        "predicted_time_s": 0.04021023585501528,
+        "uncertainty_s": 0.04369787812464948,
+        "risk_score": 0.06205917491734002,
+        "q90_time_s": 0.08390811397966476
+      }
+    ],
+    "oracle_time_s": 0.000440575000084209,
+    "selected_time_s": 0.0018053109999982553
+  }
+]

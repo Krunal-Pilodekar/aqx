@@ -1,0 +1,102 @@
+[
+  {
+    "workload": "black_scholes",
+    "size": 8192,
+    "spec": {
+      "name": "black_scholes",
+      "size": 8192,
+      "elements": 8192,
+      "bytes": 196608,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 8192.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.003744609000023047,
+      "numpy": 0.002295970999966812,
+      "numba": 0.00031039100008456444,
+      "numba_parallel": 0.0002985869998610724
+    },
+    "oracle": "numba_parallel"
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 8192,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 8192,
+      "elements": 65536,
+      "bytes": 524288,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 8192.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 8192,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.022924275999912425,
+      "numpy": 0.000541910000038115,
+      "numba": 0.0004105990001335158,
+      "numba_parallel": 0.000744851000035851
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 8192,
+      "elements": 16290,
+      "bytes": 130320,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 91.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 90,
+        "scenarios": 91
+      }
+    },
+    "medians": {
+      "python": 0.0036607069998808583,
+      "numpy": 0.00019669099992825068,
+      "numba": 5.763399985880824e-05,
+      "numba_parallel": 0.004427724000152011
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 16384,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 16384,
+      "elements": 16384,
+      "bytes": 262144,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 16384.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 64
+      }
+    },
+    "medians": {
+      "python": 0.11970133499994517,
+      "numpy": 0.0003270830000019487,
+      "numba": 0.0009839109998210915,
+      "numba_parallel": 0.0007234910001443495
+    },
+    "oracle": "numpy"
+  }
+]

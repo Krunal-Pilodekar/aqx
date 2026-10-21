@@ -1,0 +1,402 @@
+[
+  {
+    "workload": "monte_carlo",
+    "size": 512,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 512,
+      "elements": 4096,
+      "bytes": 32768,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 512.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 512,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.0013175149999824498,
+      "numpy": 0.00018259099988426897,
+      "numba": 5.58690001071227e-05,
+      "numba_parallel": 0.0001662449999457749
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 2048,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 2048,
+      "elements": 16384,
+      "bytes": 131072,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 2048.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 2048,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.005694660000017393,
+      "numpy": 0.00033478099999229016,
+      "numba": 0.00015120800003387558,
+      "numba_parallel": 0.00021574400011559192
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 8192,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 8192,
+      "elements": 65536,
+      "bytes": 524288,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 8192.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 8192,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.022924275999912425,
+      "numpy": 0.000541910000038115,
+      "numba": 0.0004105990001335158,
+      "numba_parallel": 0.000744851000035851
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 16384,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 16384,
+      "elements": 131072,
+      "bytes": 1048576,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 16384.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 16384,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.04594536700005847,
+      "numpy": 0.0008841999999731343,
+      "numba": 0.0007646110000223416,
+      "numba_parallel": 0.0005587619998550508
+    },
+    "oracle": "numba_parallel"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 512,
+    "spec": {
+      "name": "black_scholes",
+      "size": 512,
+      "elements": 512,
+      "bytes": 12288,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 512.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.00032482699998581666,
+      "numpy": 0.00038170199991327536,
+      "numba": 5.46659998690302e-05,
+      "numba_parallel": 0.0001650740000513906
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 2048,
+    "spec": {
+      "name": "black_scholes",
+      "size": 2048,
+      "elements": 2048,
+      "bytes": 49152,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 2048.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.0011158370000430295,
+      "numpy": 0.0010635240000738122,
+      "numba": 0.00010357200017097057,
+      "numba_parallel": 0.00036517699982141494
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 8192,
+    "spec": {
+      "name": "black_scholes",
+      "size": 8192,
+      "elements": 8192,
+      "bytes": 196608,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 8192.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.003744609000023047,
+      "numpy": 0.002295970999966812,
+      "numba": 0.00031039100008456444,
+      "numba_parallel": 0.0002985869998610724
+    },
+    "oracle": "numba_parallel"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 16384,
+    "spec": {
+      "name": "black_scholes",
+      "size": 16384,
+      "elements": 16384,
+      "bytes": 393216,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 16384.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.007790276999912749,
+      "numpy": 0.00411725200001456,
+      "numba": 0.0005812100000639475,
+      "numba_parallel": 0.00034757399998852634
+    },
+    "oracle": "numba_parallel"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 1024,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 1024,
+      "elements": 1024,
+      "bytes": 16384,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 1024.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 16
+      }
+    },
+    "medians": {
+      "python": 0.0025107930000558554,
+      "numpy": 0.00023198700000648387,
+      "numba": 4.202399986752425e-05,
+      "numba_parallel": 0.0001658060000409023
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 4096,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 4096,
+      "elements": 4096,
+      "bytes": 65536,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 4096.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 64
+      }
+    },
+    "medians": {
+      "python": 0.030345636999982162,
+      "numpy": 0.0002359529999012011,
+      "numba": 0.0002606670000204758,
+      "numba_parallel": 0.00024332900011359015
+    },
+    "oracle": "numpy"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 16384,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 16384,
+      "elements": 16384,
+      "bytes": 262144,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 16384.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 64
+      }
+    },
+    "medians": {
+      "python": 0.11970133499994517,
+      "numpy": 0.0003270830000019487,
+      "numba": 0.0009839109998210915,
+      "numba_parallel": 0.0007234910001443495
+    },
+    "oracle": "numpy"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 32768,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 32768,
+      "elements": 32768,
+      "bytes": 524288,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 32768.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 64
+      }
+    },
+    "medians": {
+      "python": 0.23599185000011857,
+      "numpy": 0.000440575000084209,
+      "numba": 0.0018053109999982553,
+      "numba_parallel": 0.0007967139999891515
+    },
+    "oracle": "numpy"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 512,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 512,
+      "elements": 990,
+      "bytes": 7920,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 23.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 22,
+        "scenarios": 23
+      }
+    },
+    "medians": {
+      "python": 0.00032987099984893575,
+      "numpy": 0.00015539799983343983,
+      "numba": 2.6451999929122394e-05,
+      "numba_parallel": 0.00016203399991354672
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 2048,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 2048,
+      "elements": 4050,
+      "bytes": 32400,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 45.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 45,
+        "scenarios": 45
+      }
+    },
+    "medians": {
+      "python": 0.0014569679999567597,
+      "numpy": 0.00016235899988714664,
+      "numba": 2.9937000135760172e-05,
+      "numba_parallel": 0.00017571800003679527
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 8192,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 8192,
+      "elements": 16290,
+      "bytes": 130320,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 91.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 90,
+        "scenarios": 91
+      }
+    },
+    "medians": {
+      "python": 0.0036607069998808583,
+      "numpy": 0.00019669099992825068,
+      "numba": 5.763399985880824e-05,
+      "numba_parallel": 0.004427724000152011
+    },
+    "oracle": "numba"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 16384,
+      "elements": 32768,
+      "bytes": 262144,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 128.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 128,
+        "scenarios": 128
+      }
+    },
+    "medians": {
+      "python": 0.0065438009999070346,
+      "numpy": 0.00025258099981328996,
+      "numba": 7.708299995101697e-05,
+      "numba_parallel": 0.005700504000060391
+    },
+    "oracle": "numba"
+  }
+]

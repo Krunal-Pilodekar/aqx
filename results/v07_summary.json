@@ -1,0 +1,48 @@
+{
+  "version": "0.7",
+  "dataset": "AQX v0.5 measured steady-state cases (fixed; no synthetic timings)",
+  "n_cases": 16,
+  "n_model_predictions": 80,
+  "seeds": [
+    7,
+    17,
+    29,
+    41,
+    73
+  ],
+  "protocol": "leave-one-size-rank-out across all workload families; one held-out rank per fold",
+  "rf": {
+    "accuracy_mean": 0.775,
+    "accuracy_std": 0.03423265984407289,
+    "mean_regret": 0.3595381236395,
+    "median_regret": 0.0,
+    "p95_regret": 4.520345534404049,
+    "max_regret": 4.520345534404049,
+    "mean_numba_regret": 0.39316437307169044,
+    "mean_numpy_regret": 3.479901167653086,
+    "win_rate_vs_numba": 0.275,
+    "win_rate_vs_numpy": 0.6875
+  },
+  "rf_mean_regret_ci95": [
+    0.13989945300248038,
+    0.6234909754302949
+  ],
+  "rf_accuracy_ci95": [
+    0.6875,
+    0.8625
+  ],
+  "family_fixed_mean_regret": 0.6341238509426529,
+  "global_fixed_mean_regret": 0.39316437307169044,
+  "numba_mean_regret": 0.39316437307169044,
+  "numpy_mean_regret": 3.479901167653086,
+  "family_fixed_mean_regret_ci95": [
+    0.10951975874356547,
+    1.331535332563404
+  ],
+  "numba_mean_regret_ci95": [
+    0.22203249501004813,
+    0.593978404332479
+  ],
+  "case_level_rf_mean_regret": 0.3595381236395,
+  "case_level_rf_accuracy": 0.7749999999999999
+}

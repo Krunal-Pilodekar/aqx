@@ -1,0 +1,15 @@
+changelog:
+  categories:
+    - title: "Research / Experiments"
+      labels:
+        - "research"
+    - title: "Features"
+      labels:
+        - "enhancement"
+        - "feature"
+    - title: "Bug Fixes"
+      labels:
+        - "bug"
+    - title: "Other Changes"
+      labels:
+        - "*"

@@ -1,0 +1,1082 @@
+[
+  {
+    "workload": "monte_carlo",
+    "size": 256,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 256,
+      "elements": 2048,
+      "bytes": 16384,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 256.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 256,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.0007251639999594772,
+      "numpy": 0.00015822499972273363,
+      "numba": 3.3335999887640355e-05,
+      "numba_parallel": 0.00015304799990190077
+    },
+    "raw_times": {
+      "python": [
+        0.000866142999711883,
+        0.0006454610002037953,
+        0.0007251639999594772
+      ],
+      "numpy": [
+        0.00015822499972273363,
+        0.00015893600038907607,
+        0.00015476499993383186
+      ],
+      "numba": [
+        3.193099973941571e-05,
+        3.3335999887640355e-05,
+        3.475899984550779e-05
+      ],
+      "numba_parallel": [
+        0.00015279200033546658,
+        0.0002305589996467461,
+        0.00015304799990190077
+      ]
+    },
+    "values": {
+      "python": 10.769366558604231,
+      "numpy": 10.769366558604226,
+      "numba": 10.769366558604231,
+      "numba_parallel": 10.769366558604226
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 1024,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 1024,
+      "elements": 8192,
+      "bytes": 65536,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 1024.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 1024,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.0025598130000616948,
+      "numpy": 0.0002036949999819626,
+      "numba": 7.502699963879422e-05,
+      "numba_parallel": 0.00017240800025319913
+    },
+    "raw_times": {
+      "python": [
+        0.002595811999981379,
+        0.002497594000033132,
+        0.0025598130000616948
+      ],
+      "numpy": [
+        0.0001938689997587062,
+        0.00021303899984559393,
+        0.0002036949999819626
+      ],
+      "numba": [
+        6.876499992358731e-05,
+        7.631600010427064e-05,
+        7.502699963879422e-05
+      ],
+      "numba_parallel": [
+        0.00016659199991408968,
+        0.00017240800025319913,
+        0.00017428000001018518
+      ]
+    },
+    "values": {
+      "python": 9.870955204332526,
+      "numpy": 9.87095520433252,
+      "numba": 9.870955204332526,
+      "numba_parallel": 9.870955204332517
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 4096,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 4096,
+      "elements": 32768,
+      "bytes": 262144,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 4096.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 4096,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.010162212000068394,
+      "numpy": 0.00035613199997897027,
+      "numba": 0.00020976599989808165,
+      "numba_parallel": 0.00026047800020023715
+    },
+    "raw_times": {
+      "python": [
+        0.009765516999777901,
+        0.010162212000068394,
+        0.010644139999840263
+      ],
+      "numpy": [
+        0.0003845589999400545,
+        0.0003451050001785916,
+        0.00035613199997897027
+      ],
+      "numba": [
+        0.00020653599995057448,
+        0.00023322500010181102,
+        0.00020976599989808165
+      ],
+      "numba_parallel": [
+        0.0002550969998083019,
+        0.00028536300033010775,
+        0.00026047800020023715
+      ]
+    },
+    "values": {
+      "python": 10.302024109524348,
+      "numpy": 10.302024109524336,
+      "numba": 10.302024109524348,
+      "numba_parallel": 10.302024109524336
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 16384,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 16384,
+      "elements": 131072,
+      "bytes": 1048576,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 16384.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 16384,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.03970742799992877,
+      "numpy": 0.0009243609997611202,
+      "numba": 0.0007536729999628733,
+      "numba_parallel": 0.0005601049997494556
+    },
+    "raw_times": {
+      "python": [
+        0.0361884320000172,
+        0.03973018599981515,
+        0.03970742799992877
+      ],
+      "numpy": [
+        0.0009243609997611202,
+        0.0009399529999427614,
+        0.0008837340001264238
+      ],
+      "numba": [
+        0.0007536729999628733,
+        0.0007413389998873754,
+        0.0007599259997732588
+      ],
+      "numba_parallel": [
+        0.0005601049997494556,
+        0.0006671179999102606,
+        0.0005218080000304326
+      ]
+    },
+    "values": {
+      "python": 10.671233233355938,
+      "numpy": 10.671233233355927,
+      "numba": 10.671233233355938,
+      "numba_parallel": 10.671233233355931
+    },
+    "oracle": "numba_parallel",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "monte_carlo",
+    "size": 65536,
+    "spec": {
+      "name": "monte_carlo",
+      "size": 65536,
+      "elements": 524288,
+      "bytes": 4194304,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 12.0,
+      "parallelism": 65536.0,
+      "problem_family": "simulation",
+      "metadata": {
+        "paths": 65536,
+        "steps": 8
+      }
+    },
+    "medians": {
+      "python": 0.15644683500022438,
+      "numpy": 0.0030987850000201433,
+      "numba": 0.0029380349997154553,
+      "numba_parallel": 0.0016444029997728649
+    },
+    "raw_times": {
+      "python": [
+        0.15627470800018273,
+        0.15644683500022438,
+        0.16266104700025608
+      ],
+      "numpy": [
+        0.0037102000001141278,
+        0.0028995839998060546,
+        0.0030987850000201433
+      ],
+      "numba": [
+        0.0029380349997154553,
+        0.003146640000068146,
+        0.0028590510000867653
+      ],
+      "numba_parallel": [
+        0.0015628449996256677,
+        0.002577003999704175,
+        0.0016444029997728649
+      ]
+    },
+    "values": {
+      "python": 10.478721390666948,
+      "numpy": 10.478721390666937,
+      "numba": 10.478721390666948,
+      "numba_parallel": 10.478721390666946
+    },
+    "oracle": "numba_parallel",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 256,
+    "spec": {
+      "name": "black_scholes",
+      "size": 256,
+      "elements": 256,
+      "bytes": 6144,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 256.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.00024008499985939125,
+      "numpy": 0.00031790299999556737,
+      "numba": 3.651199995147181e-05,
+      "numba_parallel": 0.0002093930002047273
+    },
+    "raw_times": {
+      "python": [
+        0.0002588659999673837,
+        0.00024008499985939125,
+        0.0002227200002380414
+      ],
+      "numpy": [
+        0.00031790299999556737,
+        0.0003299159998277901,
+        0.0003117790001851972
+      ],
+      "numba": [
+        7.770399997752975e-05,
+        3.466499993010075e-05,
+        3.651199995147181e-05
+      ],
+      "numba_parallel": [
+        0.00040858900001694565,
+        0.00016098699961730745,
+        0.0002093930002047273
+      ]
+    },
+    "values": {
+      "python": 13.176676721805022,
+      "numpy": 13.176676721805016,
+      "numba": 13.176676721805022,
+      "numba_parallel": 13.176676721805016
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 1024,
+    "spec": {
+      "name": "black_scholes",
+      "size": 1024,
+      "elements": 1024,
+      "bytes": 24576,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 1024.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.0005393310002546059,
+      "numpy": 0.0004925319999529165,
+      "numba": 6.255800008148071e-05,
+      "numba_parallel": 0.0001780399998096982
+    },
+    "raw_times": {
+      "python": [
+        0.0005556470000556146,
+        0.000502560999848356,
+        0.0005393310002546059
+      ],
+      "numpy": [
+        0.0004925319999529165,
+        0.0008897409998098738,
+        0.0004902280002170301
+      ],
+      "numba": [
+        6.255800008148071e-05,
+        6.104700014475384e-05,
+        0.00010813499966388918
+      ],
+      "numba_parallel": [
+        0.0001584850001563609,
+        0.0001910810001390928,
+        0.0001780399998096982
+      ]
+    },
+    "values": {
+      "python": 12.991202511630394,
+      "numpy": 12.991202511630405,
+      "numba": 12.991202511630394,
+      "numba_parallel": 12.991202511630403
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 4096,
+    "spec": {
+      "name": "black_scholes",
+      "size": 4096,
+      "elements": 4096,
+      "bytes": 98304,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 4096.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.0020029779998367303,
+      "numpy": 0.001383845999953337,
+      "numba": 0.00016582999978709267,
+      "numba_parallel": 0.00019350599995959783
+    },
+    "raw_times": {
+      "python": [
+        0.0020652990001508442,
+        0.0020029779998367303,
+        0.001879260999885446
+      ],
+      "numpy": [
+        0.001383845999953337,
+        0.001346579999790265,
+        0.0015468669998881523
+      ],
+      "numba": [
+        0.00016157500022018212,
+        0.00016582999978709267,
+        0.0002366660000916454
+      ],
+      "numba_parallel": [
+        0.00017722499978845008,
+        0.00027559699992707465,
+        0.00019350599995959783
+      ]
+    },
+    "values": {
+      "python": 13.092948214153791,
+      "numpy": 13.092948214153813,
+      "numba": 13.092948214153791,
+      "numba_parallel": 13.092948214153813
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 16384,
+    "spec": {
+      "name": "black_scholes",
+      "size": 16384,
+      "elements": 16384,
+      "bytes": 393216,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 16384.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.008542802999727428,
+      "numpy": 0.005088754000098561,
+      "numba": 0.0006474679998973443,
+      "numba_parallel": 0.0003799759997491492
+    },
+    "raw_times": {
+      "python": [
+        0.008542802999727428,
+        0.008815215000140597,
+        0.007649160999790183
+      ],
+      "numpy": [
+        0.005088754000098561,
+        0.005314961999829393,
+        0.004136283999741863
+      ],
+      "numba": [
+        0.0007930629999464145,
+        0.0006474679998973443,
+        0.0005687019997822063
+      ],
+      "numba_parallel": [
+        0.0003829680003946123,
+        0.0003799759997491492,
+        0.0003260240000599879
+      ]
+    },
+    "values": {
+      "python": 13.125994891538292,
+      "numpy": 13.125994891538348,
+      "numba": 13.125994891538292,
+      "numba_parallel": 13.12599489153835
+    },
+    "oracle": "numba_parallel",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "black_scholes",
+    "size": 65536,
+    "spec": {
+      "name": "black_scholes",
+      "size": 65536,
+      "elements": 65536,
+      "bytes": 1572864,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 18.0,
+      "parallelism": 65536.0,
+      "problem_family": "pricing",
+      "metadata": {}
+    },
+    "medians": {
+      "python": 0.030099642000095628,
+      "numpy": 0.01983414200003608,
+      "numba": 0.0022909280000931176,
+      "numba_parallel": 0.0009017160000439617
+    },
+    "raw_times": {
+      "python": [
+        0.03021272600017255,
+        0.02936666300001889,
+        0.030099642000095628
+      ],
+      "numpy": [
+        0.017691611999907764,
+        0.02134934500008967,
+        0.01983414200003608
+      ],
+      "numba": [
+        0.002378450999913184,
+        0.0022324300002765085,
+        0.0022909280000931176
+      ],
+      "numba_parallel": [
+        0.000820966999981465,
+        0.0009017160000439617,
+        0.0009288040000683395
+      ]
+    },
+    "values": {
+      "python": 13.0507540627922,
+      "numpy": 13.050754062792192,
+      "numba": 13.050754062792196,
+      "numba_parallel": 13.050754062792198
+    },
+    "oracle": "numba_parallel",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 512,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 512,
+      "elements": 512,
+      "bytes": 8192,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 512.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 8
+      }
+    },
+    "medians": {
+      "python": 0.0006346449999909964,
+      "numpy": 0.00023547799992229557,
+      "numba": 2.571099958004197e-05,
+      "numba_parallel": 0.00016887999981918256
+    },
+    "raw_times": {
+      "python": [
+        0.0006346449999909964,
+        0.0006133290003162983,
+        0.0006637239998781297
+      ],
+      "numpy": [
+        0.0002178960003220709,
+        0.0002758989999165351,
+        0.00023547799992229557
+      ],
+      "numba": [
+        2.22529997699894e-05,
+        2.571099958004197e-05,
+        2.639499962242553e-05
+      ],
+      "numba_parallel": [
+        0.0002011430001402914,
+        0.00016887999981918256,
+        0.00015893699992375332
+      ]
+    },
+    "values": {
+      "python": -1.0600900748656064,
+      "numpy": -1.0600900748655957,
+      "numba": -1.0600900748656064,
+      "numba_parallel": -1.0600900748656101
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 2048,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 2048,
+      "elements": 2048,
+      "bytes": 32768,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 2048.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 32
+      }
+    },
+    "medians": {
+      "python": 0.007617604000188294,
+      "numpy": 0.0002531259997340385,
+      "numba": 7.129300001906813e-05,
+      "numba_parallel": 0.00021462400036398321
+    },
+    "raw_times": {
+      "python": [
+        0.007019523000053596,
+        0.007617604000188294,
+        0.008002753000255325
+      ],
+      "numpy": [
+        0.00023136599975259742,
+        0.0002531259997340385,
+        0.0002907160001086595
+      ],
+      "numba": [
+        8.495200017932802e-05,
+        6.56050001452968e-05,
+        7.129300001906813e-05
+      ],
+      "numba_parallel": [
+        0.00018755599967335002,
+        0.00036161600019113394,
+        0.00021462400036398321
+      ]
+    },
+    "values": {
+      "python": 2.077679194217646,
+      "numpy": 2.0776791942175743,
+      "numba": 2.077679194217646,
+      "numba_parallel": 2.0776791942176254
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 8192,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 8192,
+      "elements": 8192,
+      "bytes": 131072,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 8192.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 64
+      }
+    },
+    "medians": {
+      "python": 0.058153161999598524,
+      "numpy": 0.00027404399997976725,
+      "numba": 0.0004491099998631398,
+      "numba_parallel": 0.0003202530001544801
+    },
+    "raw_times": {
+      "python": [
+        0.05743023800005176,
+        0.05906694299983428,
+        0.058153161999598524
+      ],
+      "numpy": [
+        0.0022244430001592264,
+        0.00027404399997976725,
+        0.0002536480001253949
+      ],
+      "numba": [
+        0.0004491099998631398,
+        0.000450107999768079,
+        0.0004239400000187743
+      ],
+      "numba_parallel": [
+        0.0003447030003371765,
+        0.0003202530001544801,
+        0.00027941500002270914
+      ]
+    },
+    "values": {
+      "python": -0.7757685246161907,
+      "numpy": -0.7757685246163764,
+      "numba": -0.7757685246161907,
+      "numba_parallel": -0.77576852461622
+    },
+    "oracle": "numpy",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 32768,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 32768,
+      "elements": 32768,
+      "bytes": 524288,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 32768.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 64
+      }
+    },
+    "medians": {
+      "python": 0.22760872600019866,
+      "numpy": 0.000435509999988426,
+      "numba": 0.0017664909996710776,
+      "numba_parallel": 0.0008000230000106967
+    },
+    "raw_times": {
+      "python": [
+        0.2268189189999248,
+        0.22760872600019866,
+        0.22989291700014292
+      ],
+      "numpy": [
+        0.000435509999988426,
+        0.0004515589998845826,
+        0.000429867000093509
+      ],
+      "numba": [
+        0.001730331000089791,
+        0.0018156699998144177,
+        0.0017664909996710776
+      ],
+      "numba_parallel": [
+        0.0007818900003258022,
+        0.0008000230000106967,
+        0.0008731110001463094
+      ]
+    },
+    "values": {
+      "python": 9.175607114733541,
+      "numpy": 9.175607114733179,
+      "numba": 9.175607114733541,
+      "numba_parallel": 9.175607114733442
+    },
+    "oracle": "numpy",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "rolling_signal",
+    "size": 65536,
+    "spec": {
+      "name": "rolling_signal",
+      "size": 65536,
+      "elements": 65536,
+      "bytes": 1048576,
+      "dimensions": 1,
+      "dtype_size": 8,
+      "arithmetic_intensity": 8.0,
+      "parallelism": 65536.0,
+      "problem_family": "signal",
+      "metadata": {
+        "window": 64
+      }
+    },
+    "medians": {
+      "python": 0.47013778000018647,
+      "numpy": 0.0009431429998585372,
+      "numba": 0.0035923239997828205,
+      "numba_parallel": 0.0012408829998094006
+    },
+    "raw_times": {
+      "python": [
+        0.47013778000018647,
+        0.47231839100004436,
+        0.4615999009997722
+      ],
+      "numpy": [
+        0.0009506659998805844,
+        0.0009431429998585372,
+        0.0007954540001264832
+      ],
+      "numba": [
+        0.003380967999873974,
+        0.0035923239997828205,
+        0.003658150999854115
+      ],
+      "numba_parallel": [
+        0.0012263819999134284,
+        0.0012702589997388714,
+        0.0012408829998094006
+      ]
+    },
+    "values": {
+      "python": -2.4161247901335456,
+      "numpy": -2.4161247901342175,
+      "numba": -2.4161247901335456,
+      "numba_parallel": -2.4161247901335923
+    },
+    "oracle": "numpy",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 256,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 256,
+      "elements": 512,
+      "bytes": 4096,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 16.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 16,
+        "scenarios": 16
+      }
+    },
+    "medians": {
+      "python": 0.0002179160001105629,
+      "numpy": 0.00015854799994485802,
+      "numba": 2.3582999801874394e-05,
+      "numba_parallel": 0.00015869600019868813
+    },
+    "raw_times": {
+      "python": [
+        0.00017599100010556867,
+        0.0002179160001105629,
+        0.00022012499994161772
+      ],
+      "numpy": [
+        0.0001604449998922064,
+        0.00015560700012429152,
+        0.00015854799994485802
+      ],
+      "numba": [
+        1.96959999811952e-05,
+        3.216100003555766e-05,
+        2.3582999801874394e-05
+      ],
+      "numba_parallel": [
+        0.0001737849997880403,
+        0.00015869600019868813,
+        0.0001434450000488141
+      ]
+    },
+    "values": {
+      "python": 0.13612867939378925,
+      "numpy": 0.13612867939378925,
+      "numba": 0.13612867939378925,
+      "numba_parallel": 0.13612867939378925
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 1024,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 1024,
+      "elements": 2048,
+      "bytes": 16384,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 32.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 32,
+        "scenarios": 32
+      }
+    },
+    "medians": {
+      "python": 0.000476331999834656,
+      "numpy": 0.00016535199983991333,
+      "numba": 2.6576000436762115e-05,
+      "numba_parallel": 0.00017269199997826945
+    },
+    "raw_times": {
+      "python": [
+        0.0004718360000879329,
+        0.000476331999834656,
+        0.0005229179996604216
+      ],
+      "numpy": [
+        0.00015497799995500827,
+        0.00017079500003092107,
+        0.00016535199983991333
+      ],
+      "numba": [
+        2.2794999949837802e-05,
+        2.6576000436762115e-05,
+        4.245400032232283e-05
+      ],
+      "numba_parallel": [
+        0.0001662519998717471,
+        0.00017269199997826945,
+        0.00035813400018014363
+      ]
+    },
+    "values": {
+      "python": 0.06185487581536504,
+      "numpy": 0.06185487581536502,
+      "numba": 0.06185487581536504,
+      "numba_parallel": 0.06185487581536505
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 4096,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 4096,
+      "elements": 8192,
+      "bytes": 65536,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 64.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 64,
+        "scenarios": 64
+      }
+    },
+    "medians": {
+      "python": 0.0016511560002072656,
+      "numpy": 0.00016919500012591016,
+      "numba": 3.5045000004174653e-05,
+      "numba_parallel": 0.00026433900029587676
+    },
+    "raw_times": {
+      "python": [
+        0.0016545839998798328,
+        0.0016511560002072656,
+        0.0015532299998994858
+      ],
+      "numpy": [
+        0.0001698920000308135,
+        0.00016919500012591016,
+        0.00016836000031617004
+      ],
+      "numba": [
+        3.5045000004174653e-05,
+        3.363799987710081e-05,
+        3.567199973986135e-05
+      ],
+      "numba_parallel": [
+        0.00026453999998921063,
+        0.00016023999978642678,
+        0.00026433900029587676
+      ]
+    },
+    "values": {
+      "python": 0.03354240238815434,
+      "numpy": 0.03354240238815435,
+      "numba": 0.03354240238815434,
+      "numba_parallel": 0.03354240238815434
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 16384,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 16384,
+      "elements": 32768,
+      "bytes": 262144,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 128.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 128,
+        "scenarios": 128
+      }
+    },
+    "medians": {
+      "python": 0.006792785000016011,
+      "numpy": 0.00018512400038162014,
+      "numba": 6.686400001854054e-05,
+      "numba_parallel": 0.0032384819996877923
+    },
+    "raw_times": {
+      "python": [
+        0.006141386999843235,
+        0.006792785000016011,
+        0.006995928999913303
+      ],
+      "numpy": [
+        0.000204475999908027,
+        0.00018512400038162014,
+        0.00018131200022253324
+      ],
+      "numba": [
+        6.686400001854054e-05,
+        6.628200026170816e-05,
+        6.847199983894825e-05
+      ],
+      "numba_parallel": [
+        0.0025498420000076294,
+        0.0032384819996877923,
+        0.004562623999845528
+      ]
+    },
+    "values": {
+      "python": 0.013541027630453471,
+      "numpy": 0.013541027630453489,
+      "numba": 0.013541027630453471,
+      "numba_parallel": 0.01354102763045347
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  },
+  {
+    "workload": "portfolio_risk",
+    "size": 65536,
+    "spec": {
+      "name": "portfolio_risk",
+      "size": 65536,
+      "elements": 131072,
+      "bytes": 1048576,
+      "dimensions": 2,
+      "dtype_size": 8,
+      "arithmetic_intensity": 10.0,
+      "parallelism": 256.0,
+      "problem_family": "risk",
+      "metadata": {
+        "assets": 256,
+        "scenarios": 256
+      }
+    },
+    "medians": {
+      "python": 0.024051460000009683,
+      "numpy": 0.0003679370001918869,
+      "numba": 0.00019059700025536586,
+      "numba_parallel": 0.005120561000239832
+    },
+    "raw_times": {
+      "python": [
+        0.02375425099990025,
+        0.024051460000009683,
+        0.025188150000303722
+      ],
+      "numpy": [
+        0.0003679370001918869,
+        0.0004222839997964911,
+        0.00026440300007379847
+      ],
+      "numba": [
+        0.00019059700025536586,
+        0.00019067499988523195,
+        0.00018791399998008274
+      ],
+      "numba_parallel": [
+        0.009443964000183769,
+        0.004876176000379928,
+        0.005120561000239832
+      ]
+    },
+    "values": {
+      "python": 0.007842163379749084,
+      "numpy": 0.007842163379749096,
+      "numba": 0.007842163379749084,
+      "numba_parallel": 0.007842163379749079
+    },
+    "oracle": "numba",
+    "protocol": "v0.9 fresh matrix; 3 steady-state repeats after warmup; fixed seed 73"
+  }
+]

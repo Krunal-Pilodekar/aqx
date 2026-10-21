@@ -1,0 +1,53 @@
+{
+  "version": "0.8",
+  "best_lambda": 0.5,
+  "tuning": [
+    {
+      "lambda": 0.0,
+      "mean_regret": 0.026366081317912765,
+      "accuracy": 0.75
+    },
+    {
+      "lambda": 0.5,
+      "mean_regret": 0.02194149812812274,
+      "accuracy": 0.875
+    },
+    {
+      "lambda": 1.0,
+      "mean_regret": 0.02194149812812274,
+      "accuracy": 0.875
+    },
+    {
+      "lambda": 2.0,
+      "mean_regret": 0.02194149812812274,
+      "accuracy": 0.875
+    }
+  ],
+  "n_cases": 16,
+  "n_predictions": 80,
+  "seeds": [
+    7,
+    17,
+    29,
+    41,
+    73
+  ],
+  "protocol": "nested rank-holdout: lambda tuned only on inner ranks 1-2; final evaluation uses outer leave-one-size-rank-out",
+  "risk_model": {
+    "accuracy": 0.775,
+    "mean_regret": 0.18686193573381024,
+    "median_regret": 0.0,
+    "p95_regret": 0.6721906704274017,
+    "max_regret": 3.0976246942136942,
+    "mean_numba_regret": 0.3931643730716905,
+    "win_rate_vs_numba": 0.2,
+    "accuracy_ci95": [
+      0.675,
+      0.8625
+    ],
+    "mean_regret_ci95": [
+      0.0703098898244834,
+      0.32996134866236954
+    ]
+  }
+}

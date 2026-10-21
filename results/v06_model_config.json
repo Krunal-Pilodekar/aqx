@@ -1,0 +1,6 @@
+{
+  "threshold": 0.0,
+  "entropy_threshold": 0.7,
+  "fallback": "numba",
+  "source_dataset": "AQX_v0.5/results/v05_cases.json"
+}
