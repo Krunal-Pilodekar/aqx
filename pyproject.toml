@@ -3,7 +3,7 @@ requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aqx"
+name = "aqx-adaptive-execution"
 version = "1.0.0"
 description = "Risk-aware adaptive backend selection for quantitative Python workloads"
 requires-python = ">=3.10"
