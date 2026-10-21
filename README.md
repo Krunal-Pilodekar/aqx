@@ -48,7 +48,7 @@ Python 3.10+ is supported.
 After the first PyPI release, install the published distribution with:
 
 ```bash
-python -m pip install aqx
+python -m pip install aqx-adaptive-execution
 ```
 
 To install the current source checkout instead:
